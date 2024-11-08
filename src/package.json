@@ -17,6 +17,7 @@
     "@thegetty/linkedart.js": "^0.20.0",
     "axios": "^0.21.2",
     "core-js": "^3.10.1",
+    "fuse.js": "^7.0.0",
     "lodash.merge": "^4.6.2",
     "vue": "^2.7.1",
     "vue-i18n": "^8.24.3"
