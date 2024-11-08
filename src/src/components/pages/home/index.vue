@@ -2,7 +2,9 @@
   <div class="p-home">
     <RichText :content="markdown" />
     <ReceiptView :amount="100" />
-    <ObjectView />
+    <ObjectView
+      lodURL="https://data.getty.edu/provenance/f9160680-624c-39eb-932d-43fd7eee5a77"
+    />
     <div class="p-home__body-content">{{ message }}</div>
   </div>
 </template>
