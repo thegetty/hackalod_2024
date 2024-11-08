@@ -1,8 +1,13 @@
 <template>
   <div class="p-home">
-    <img src="@/assets/hammer.png" />
+    <div class="hammer-holder">
+      <img src="@/assets/hammer.png" class="p-hammer" />
+      <p>SOLD!</p>
+    </div>
     <SearchBox @searchUpdate="handleSearchUpdate" />
-    <RichText :content="markdown" />
+    <div class="text_holder">
+      <RichText :content="markdown" />
+    </div>
     <hr />
     <ReceiptView :activityURI="activityURI" />
     <ObjectView :lodURL="objectURI" />
