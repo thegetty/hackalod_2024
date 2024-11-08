@@ -2,7 +2,6 @@
 
 .p-home {
   padding-top: $spacing-06;
-  text-align: center;
 }
 .p-home__body-content {
   margin-top: $spacing-06;
@@ -12,20 +11,36 @@
   width: 30%;
   align-self: center;
 }
-.hammer-holder {
+.p-home__header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  padding-top: $spacing-06;
+  padding-bottom: $spacing-06;
+
   p {
     align-self: center;
     font-size: 400%;
     font-weight: 900;
+    padding-top: $spacing-06;
   }
 }
 
-.text_holder {
+.p-home__description {
+  @include f-subhead-3;
   display: flex;
   justify-content: center;
+  padding-bottom: $spacing-06;
+
   .a-rich-text: {
     width: 60%;
   }
+}
+
+.p-home__header,
+.p-home__description,
+.m-searchbox {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
 }
