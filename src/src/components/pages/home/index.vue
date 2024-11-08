@@ -1,6 +1,6 @@
 <template>
   <div class="p-home">
-    <SearchBox />
+    <SearchBox @searchUpdate="handleSearchUpdate" />
     <RichText :content="markdown" />
     <ReceiptView :amount="100" />
     <ObjectView />
@@ -46,11 +46,16 @@ export default {
           text: "A modern JavaScript utility library delivering modularity, performance & extras.",
         },
       ],
+      activityURI: undefined,
     };
   },
   computed: {},
   mounted() {},
-  methods: {},
+  methods: {
+    handleSearchUpdate(e) {
+      this.objectURI = e.object_uri;
+    },
+  },
 };
 </script>
 <style lang="scss">
