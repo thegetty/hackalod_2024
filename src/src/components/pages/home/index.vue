@@ -1,16 +1,18 @@
 <template>
   <div class="p-home">
     <RichText :content="markdown" />
+    <ReceiptView :amount="100" />
     <div class="p-home__body-content">{{ message }}</div>
   </div>
 </template>
 
 <script>
 import { RichText } from "@thegetty/getty-ui";
+import ReceiptView from "@/components/organisms/receiptView/index.vue";
 import markdownContent from "@/data/welcome.md";
 export default {
   name: "HomePage",
-  components: { RichText },
+  components: { RichText, ReceiptView },
   props: {
     /**
      * The path the app runs at
