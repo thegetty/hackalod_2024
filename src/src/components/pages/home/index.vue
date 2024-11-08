@@ -1,6 +1,6 @@
 <template>
   <div class="p-home">
-    <SearchBox />
+    <SearchBox @searchUpdate="handleSearchUpdate" />
     <RichText :content="markdown" />
     <ReceiptView
       activityURI="https://data.getty.edu/provenance/9c928dd2-af94-3406-819b-5b9380a7b44f"
@@ -50,11 +50,16 @@ export default {
           text: "A modern JavaScript utility library delivering modularity, performance & extras.",
         },
       ],
+      activityURI: undefined,
     };
   },
   computed: {},
   mounted() {},
-  methods: {},
+  methods: {
+    handleSearchUpdate(e) {
+      this.objectURI = e.object_uri;
+    },
+  },
 };
 </script>
 <style lang="scss">

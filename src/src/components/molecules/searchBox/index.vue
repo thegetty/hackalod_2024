@@ -1,12 +1,11 @@
 <template>
   <div class="m-searchbox">
-    <input class="m-searchbox__input" type="search" @input="search" />
+    <input class="m-searchbox__input" type="search" @input="handleSearch" />
     <GuiButton
       :aria-label="$t('aria-search-button-label')"
       ref="searchButton"
       name="searchButton"
       class="m-searchbox__button"
-      @click="search"
     >
       <Icon :name="'search'" />
     </GuiButton>
@@ -15,6 +14,7 @@
         v-for="suggestion of suggestions"
         :key="suggestion.postId"
         class="m-searchbox__suggestion"
+        @click="handleClick($event, suggestion)"
       >
         <span class="m-searchbox__suggestion--artist">{{
           suggestion.item.art_authority
@@ -39,6 +39,7 @@ export default {
     GuiButton,
     Icon,
   },
+  emits: ["searchUpdate"],
   data() {
     return {
       documents: knoedler,
@@ -55,13 +56,15 @@ export default {
     this.fuse = new Fuse(this.documents, this.fuseOptions);
   },
   methods: {
-    search(e) {
+    handleSearch(e) {
       if (e.target.value) {
         this.suggestions = this.fuse.search(e.target.value);
-        console.log("ヽ༼ຈل͜ຈ༽ﾉ", this.suggestions);
       } else {
         this.suggestions = undefined;
       }
+    },
+    handleClick(e, suggestion) {
+      this.$emit("searchUpdate", suggestion.item);
     },
   },
 };
