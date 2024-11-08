@@ -1,11 +1,11 @@
 <template>
   <div class="p-home">
-    <div class="hammer-holder">
+    <div class="p-home__header">
       <img src="@/assets/hammer.png" class="p-hammer" />
       <p>SOLD!</p>
     </div>
     <SearchBox @searchUpdate="handleSearchUpdate" />
-    <div class="text_holder">
+    <div class="p-home__description">
       <RichText :content="markdown" />
     </div>
     <hr />

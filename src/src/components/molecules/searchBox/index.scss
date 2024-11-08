@@ -1,19 +1,35 @@
 @use "@thegetty/getty-ui/src/styles/base" as *;
 
 .m-searchbox {
-  outline-offset: -1px;
+  display: flex;
+  width: 100%;
+  padding-bottom: $spacing-06;
 }
 
 .m-searchbox__input {
   @include f-subhead-3;
-  height: 1.75em;
-  width: 20em;
-  padding: 3px;
+  flex-grow: 1 0;
+  border: 1px solid $color__text;
+  border-radius: unset;
+  padding-top: 4px;
+  width: calc(100% - $spacing-11);
 }
 
 .m-searchbox__button {
-  height: 1.75em;
-  width: 1.75em;
+  @include reset-btn;
+  @include link-focus;
+  align-self: flex-end;
+  justify-content: center;
+  width: $spacing-11;
+  height: $spacing-11;
+
+  background-color: $color__black;
+  color: $color__white;
+
+  svg {
+    width: $spacing-04;
+    height: $spacing-04;
+  }
 }
 
 .m-searchbox__suggestions {
@@ -21,4 +37,26 @@
   position: absolute;
   z-index: 99;
   background-color: $color__white;
+}
+
+.m-searchbox__suggestion {
+  cursor: pointer;
+  padding-top: $spacing-01;
+  padding-bottom: $spacing-01;
+  @include keyline("bottom");
+  &:hover {
+    background: $color__grey--20;
+  }
+
+  .m-searchbox__suggestion--artist {
+    text-transform: capitalize;
+    &:after {
+      content: ",";
+      padding-right: 0.25em;
+    }
+  }
+
+  .m-searchbox__suggestion--title {
+    font-style: italic;
+  }
 }
