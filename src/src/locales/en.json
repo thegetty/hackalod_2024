@@ -1,0 +1,8 @@
+{
+  "home": {
+    "welcome": "This is a localized String"
+  },
+  "base": {
+    "app_name": "Template Flask App"
+  }
+}
