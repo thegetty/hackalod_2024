@@ -2,12 +2,8 @@
   <div class="p-home">
     <SearchBox @searchUpdate="handleSearchUpdate" />
     <RichText :content="markdown" />
-    <ReceiptView
-      activityURI="https://data.getty.edu/provenance/9c928dd2-af94-3406-819b-5b9380a7b44f"
-    />
-    <ObjectView
-      lodURL="https://data.getty.edu/provenance/f9160680-624c-39eb-932d-43fd7eee5a77"
-    />
+    <ReceiptView :activityURI="activityURI" />
+    <ObjectView :lodURL="objectURI" />
     <div class="p-home__body-content">{{ message }}</div>
   </div>
 </template>
@@ -50,6 +46,7 @@ export default {
           text: "A modern JavaScript utility library delivering modularity, performance & extras.",
         },
       ],
+      objectURI: undefined,
       activityURI: undefined,
     };
   },
@@ -57,6 +54,7 @@ export default {
   mounted() {},
   methods: {
     handleSearchUpdate(e) {
+      this.activityURI = e.activity_uri;
       this.objectURI = e.object_uri;
     },
   },
