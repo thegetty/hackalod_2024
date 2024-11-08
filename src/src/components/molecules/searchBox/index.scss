@@ -1,0 +1,24 @@
+@use "@thegetty/getty-ui/src/styles/base" as *;
+
+.m-searchbox {
+  outline-offset: -1px;
+}
+
+.m-searchbox__input {
+  @include f-subhead-3;
+  height: 1.75em;
+  width: 20em;
+  padding: 3px;
+}
+
+.m-searchbox__button {
+  height: 1.75em;
+  width: 1.75em;
+}
+
+.m-searchbox__suggestions {
+  @include f-subhead-3;
+  position: absolute;
+  z-index: 99;
+  background-color: $color__white;
+}
