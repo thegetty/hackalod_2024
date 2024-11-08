@@ -2,8 +2,12 @@
   <div class="p-home">
     <SearchBox @searchUpdate="handleSearchUpdate" />
     <RichText :content="markdown" />
-    <ReceiptView :amount="100" />
-    <ObjectView />
+    <ReceiptView
+      activityURI="https://data.getty.edu/provenance/9c928dd2-af94-3406-819b-5b9380a7b44f"
+    />
+    <ObjectView
+      lodURL="https://data.getty.edu/provenance/f9160680-624c-39eb-932d-43fd7eee5a77"
+    />
     <div class="p-home__body-content">{{ message }}</div>
   </div>
 </template>
