@@ -1,5 +1,7 @@
 <template>
   <div class="p-receipt">
+    <h3>Receipt</h3>
+
     <p>{{ transactionName }}</p>
     <p>Amount: {{ formattedCurrency }}</p>
     <p>Date: {{ transactionDate }}</p>
