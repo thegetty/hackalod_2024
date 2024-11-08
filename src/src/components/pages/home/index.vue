@@ -1,9 +1,12 @@
 <template>
   <div class="p-home">
+    <img src="@/assets/hammer.png" />
     <SearchBox @searchUpdate="handleSearchUpdate" />
     <RichText :content="markdown" />
+    <hr />
     <ReceiptView :activityURI="activityURI" />
     <ObjectView :lodURL="objectURI" />
+    <PersonView :lodURL="personURI" />
     <div class="p-home__body-content">{{ message }}</div>
   </div>
 </template>
@@ -11,13 +14,14 @@
 <script>
 import { RichText } from "@thegetty/getty-ui";
 import SearchBox from "@/components/molecules/searchBox/index.vue";
+import PersonView from "@/components/organisms/personView/index.vue";
 import ReceiptView from "@/components/organisms/receiptView/index.vue";
 import ObjectView from "@/components/organisms/objectView/index.vue";
 import markdownContent from "@/data/welcome.md";
 
 export default {
   name: "HomePage",
-  components: { RichText, ReceiptView, ObjectView, SearchBox },
+  components: { RichText, ReceiptView, ObjectView, PersonView, SearchBox },
   props: {
     /**
      * The path the app runs at
@@ -48,14 +52,17 @@ export default {
       ],
       objectURI: undefined,
       activityURI: undefined,
+      personURI: undefined,
     };
   },
   computed: {},
   mounted() {},
   methods: {
     handleSearchUpdate(e) {
+      console.log("e", e.buyer_uri);
       this.activityURI = e.activity_uri;
       this.objectURI = e.object_uri;
+      this.personURI = e.buyer_uri;
     },
   },
 };
