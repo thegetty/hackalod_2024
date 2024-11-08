@@ -6,6 +6,7 @@
       ref="searchButton"
       name="searchButton"
       class="m-searchbox__button"
+      @click="closeSuggestions"
     >
       <Icon :name="'search'" />
     </GuiButton>
@@ -17,7 +18,7 @@
         @click="handleClick($event, suggestion)"
       >
         <span class="m-searchbox__suggestion--artist">{{
-          suggestion.item.art_authority
+          suggestion.item.art_authority.toLowerCase()
         }}</span>
         <span class="m-searchbox__suggestion--title">{{
           suggestion.item.title
@@ -65,6 +66,10 @@ export default {
     },
     handleClick(e, suggestion) {
       this.$emit("searchUpdate", suggestion.item);
+      this.suggestions = undefined;
+    },
+    closeSuggestions() {
+      this.suggestions = undefined;
     },
   },
 };
