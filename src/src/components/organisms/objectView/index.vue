@@ -1,5 +1,7 @@
 <template>
   <div class="p-object">
+    <h3>Object</h3>
+
     <dd>
       <dl>
         <dt>title</dt>

@@ -2,8 +2,30 @@
 
 .p-home {
   padding-top: $spacing-06;
+  text-align: center;
 }
 .p-home__body-content {
   margin-top: $spacing-06;
   margin-bottom: $spacing-06;
+}
+.p-hammer {
+  width: 30%;
+  align-self: center;
+}
+.hammer-holder {
+  display: flex;
+  justify-content: center;
+  p {
+    align-self: center;
+    font-size: 400%;
+    font-weight: 900;
+  }
+}
+
+.text_holder {
+  display: flex;
+  justify-content: center;
+  .a-rich-text: {
+    width: 60%;
+  }
 }
