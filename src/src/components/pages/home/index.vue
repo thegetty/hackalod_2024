@@ -1,5 +1,6 @@
 <template>
   <div class="p-home">
+    <SearchBox />
     <RichText :content="markdown" />
     <div class="p-home__body-content">{{ message }}</div>
   </div>
@@ -7,10 +8,12 @@
 
 <script>
 import { RichText } from "@thegetty/getty-ui";
+import SearchBox from "@/components/molecules/searchBox/index.vue";
 import markdownContent from "@/data/welcome.md";
+
 export default {
   name: "HomePage",
-  components: { RichText },
+  components: { RichText, SearchBox },
   props: {
     /**
      * The path the app runs at
@@ -24,9 +27,25 @@ export default {
     return {
       message: this.$t("home.welcome"),
       markdown: markdownContent,
+      lunrIndex: undefined,
+      documents: [
+        {
+          name: "Lunr",
+          text: "Like Solr, but much smaller, and not as bright.",
+        },
+        {
+          name: "React",
+          text: "A JavaScript library for building user interfaces.",
+        },
+        {
+          name: "Lodash",
+          text: "A modern JavaScript utility library delivering modularity, performance & extras.",
+        },
+      ],
     };
   },
   computed: {},
+  mounted() {},
   methods: {},
 };
 </script>
