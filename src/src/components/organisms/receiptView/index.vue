@@ -11,50 +11,23 @@ export default {
   name: "ReceiptView",
   components: {},
   props: {
-    amount: {
-      type: Number,
-      default: 0,
+    activityURI: {
+      type: String,
     },
-    lod: {
-      type: Object,
-      default(rawProps) {
-        return {
-          id: "https://data.getty.edu/provenance/9c928dd2-af94-3406-819b-5b9380a7b44f",
-          identified_by: [
-            {
-              content: "Knoedler Sale of Stock Number A4468 (1952-02-06)",
-              id: "https://data.getty.edu/provenance/9c928dd2-af94-3406-819b-5b9380a7b44f/tile/14fc7848-b78c-4b9e-a222-f321e3cc945a/node/493fde82-bba5-11ea-ad92-3af9d3b32b71",
-              type: "Name",
-            },
-          ],
-          timespan: {
-            _label: "1952-02-06",
-            begin_of_the_begin: "1952-02-06T00:00:00Z",
-            end_of_the_end: "1952-02-07T23:59:59Z",
-            id: "https://data.getty.edu/provenance/9c928dd2-af94-3406-819b-5b9380a7b44f/tile/5b5fd836-78f3-4756-a6e4-d2e5a2b0e5d9/node/b7641465-0cd2-11ec-ba15-0a9473e82189",
-            identified_by: [
-              {
-                content: "1952-02-06",
-                id: "https://data.getty.edu/provenance/9c928dd2-af94-3406-819b-5b9380a7b44f/tile/710d0ba4-6ca1-45d0-a973-2e67554bd120/node/b7641468-0cd2-11ec-ba15-0a9473e82189",
-                type: "Name",
-              },
-            ],
-            type: "TimeSpan",
-          },
-        };
-      },
-    },
-    currencyType: {
-      type: Object,
-      default(rawProps) {
-        return { id: "http://vocab.getty.edu/aat/300411994" };
+  },
+  watch: {
+    activityURI: {
+      immediate: true,
+      handler: async function (newURL) {
+        if (!newURL) return;
+        const response = await fetch(newURL);
+        this.lod = await response.json();
       },
     },
   },
+
   data() {
-    return {
-      message: this.$t("home.welcome"),
-    };
+    return { lod: {} };
   },
   computed: {
     transactionName: function () {
@@ -68,6 +41,7 @@ export default {
     },
 
     formattedCurrency: function () {
+      return "";
       const aatNum = this.currencyType.id.split("/").pop();
       switch (aatNum) {
         case "300411998":
