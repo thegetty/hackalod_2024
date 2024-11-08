@@ -43,4 +43,30 @@
   width: 1024px;
   margin-left: auto;
   margin-right: auto;
+
+.categories {
+  display: flex;
+  justify-content: space-evenly;
+}
+.databox {
+  flex: 1 0 auto;
+  text-align: left;
+  max-width: 30%;
+  h3 {
+    font-size: 150%;
+    text-align: center;
+    padding-bottom: 0.5em;
+  }
+  dl {
+    display: grid;
+    grid-gap: 4px 16px;
+    grid-template-columns: max-content;
+  }
+  dt {
+    font-weight: bold;
+  }
+  dd {
+    margin: 0;
+    grid-column-start: 2;
+  }
 }

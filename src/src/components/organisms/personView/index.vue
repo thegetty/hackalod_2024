@@ -1,9 +1,18 @@
 <template>
-  <div class="p-person">
-    <h3>Person</h3>
-    <dd>
-      <dl></dl>
-    </dd>
+  <div class="p-person databox">
+    <h3>Buyer</h3>
+    <dl>
+      <dt>URI</dt>
+      <dd><a :href="personURI" target="_blank">LOD Data</a></dd>
+      <dt>ULAN URI</dt>
+      <dd>
+        <a :href="lod['skos:exactMatch']?.id" target="_blank">ULAN Record</a>
+      </dd>
+      <dt>Star Bio</dt>
+      <dd>{{ bio }}</dd>
+      <dt>name</dt>
+      <dd>{{ buyerName }}</dd>
+    </dl>
   </div>
 </template>
 
@@ -28,7 +37,7 @@ export default {
         if (!newURL) return;
         const response = await fetch(newURL);
         this.lod = await response.json();
-        console.log(this.lod);
+        console.log("person", JSON.stringify(this.lod));
       },
     },
   },
@@ -36,7 +45,19 @@ export default {
   data() {
     return { lod: {} };
   },
-  computed: {},
+  computed: {
+    buyerName: function () {
+      return getPrimaryName(this.lod);
+    },
+    bio: function () {
+      return getClassifiedAs(
+        this.lod?.referred_to_by,
+        "http://vocab.getty.edu/aat/300435422"
+      )
+        ?.map((x) => x.content)
+        .join("; ");
+    },
+  },
 };
 </script>
 <style lang="scss">

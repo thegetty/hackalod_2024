@@ -1,5 +1,5 @@
 <template>
-  <div class="p-receipt">
+  <div class="p-receipt databox">
     <h3>Receipt</h3>
 
     <p>{{ transactionName }}</p>

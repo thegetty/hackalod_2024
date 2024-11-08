@@ -1,5 +1,5 @@
 <template>
-  <div class="p-object">
+  <div class="p-object databox">
     <h3>Object</h3>
 
     <dd>

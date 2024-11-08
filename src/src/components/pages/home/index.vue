@@ -9,10 +9,11 @@
       <RichText :content="markdown" />
     </div>
     <hr />
-    <ReceiptView :activityURI="activityURI" />
-    <ObjectView :lodURL="objectURI" />
-    <PersonView :lodURL="personURI" />
-    <div class="p-home__body-content">{{ message }}</div>
+    <div class="categories">
+      <ReceiptView :activityURI="activityURI" />
+      <ObjectView :lodURL="objectURI" />
+      <PersonView :personURI="personURI" />
+    </div>
   </div>
 </template>
 
