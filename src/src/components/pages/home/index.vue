@@ -14,6 +14,7 @@
         :activityURI="activityURI"
         :objectURI="objectURI"
         :personURI="personURI"
+        :presentLocationData="presentLocationData"
       />
       <ObjectView :lodURL="objectURI" :artistImage="artistImage" />
       <PersonView :personURI="personURI" :buyerImage="buyerImage" />
@@ -65,18 +66,29 @@ export default {
       personURI: undefined,
       buyerImage: undefined,
       artistImage: undefined,
+      presentLocationData: {},
     };
   },
   computed: {},
   mounted() {},
   methods: {
     handleSearchUpdate(e) {
-      console.log("e.artist_wiki_image_url;", e.artist_wiki_image_url);
       this.activityURI = e.activity_uri;
       this.objectURI = e.object_uri;
       this.personURI = e.buyer_uri;
       this.buyerImage = e.buyer_wiki_image_url;
       this.artistImage = e.artist_wiki_image_url;
+
+      this.presentLocationData.present_location = e.present_location;
+      if (e.object_image_url) {
+        this.presentLocationData.object_image_url = e.object_image_url;
+      }
+      if (e.museum_title) {
+        this.presentLocationData.museum_title = e.museum_title;
+      }
+      if (e.object_page_url) {
+        this.presentLocationData.object_page_url = e.object_page_url;
+      }
     },
   },
 };

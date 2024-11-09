@@ -2,6 +2,21 @@
   <div class="p-receipt databox">
     <h3>Receipt</h3>
 
+    <figure
+      class="p-receipt__object-image"
+      v-if="presentLocationData?.object_image_url"
+    >
+      <img :src="presentLocationData?.object_image_url" />
+      <figurecaption>
+        <a
+          v-if="presentLocationData.object_page_url"
+          :href="presentLocationData.object_page_url"
+          >Visit this object at {{ presentLocationData.present_location }}</a
+        >
+        <span v-else>{{ presentLocationData.present_location }}</span>
+      </figurecaption>
+    </figure>
+
     <dl>
       <dt>Document</dt>
       <dd>{{ transactionName }}</dd>
@@ -52,6 +67,9 @@ export default {
     personURI: {
       type: String,
     },
+    presentLocationData: {
+      type: Object,
+    },
   },
   watch: {
     activityURI: {
@@ -91,9 +109,13 @@ export default {
       return getPrimaryName(this.personLOD);
     },
     title: function () {
-      return getPrimaryName(this.objectLOD, {
+      let _title = getPrimaryName(this.objectLOD, {
         requestedClassifications: "http://vocab.getty.edu/aat/300417193",
       });
+      if (this.presentLocationData && this.presentLocationData?.museum_title) {
+        _title = this.presentLocationData?.museum_title;
+      }
+      return _title;
     },
     ulan: function () {
       return this.personLOD["skos:exactMatch"]?.id;
@@ -105,7 +127,7 @@ export default {
     },
     cost: function () {
       const paymentLOD = this.lod?.part
-        .filter((n) => n?.type == "Payment")
+        ?.filter((n) => n?.type == "Payment")
         ?.at(0)?.paid_amount;
       //return paymentLOD;
       return this.formattedCurrency(
