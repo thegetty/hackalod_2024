@@ -9,7 +9,7 @@
       <RichText :content="markdown" />
     </div>
     <hr />
-    <div class="categories">
+    <div class="categories" v-if="activityURI">
       <ReceiptView :activityURI="activityURI" />
       <ObjectView :lodURL="objectURI" />
       <PersonView :personURI="personURI" />

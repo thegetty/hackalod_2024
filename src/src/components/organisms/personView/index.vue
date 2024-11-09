@@ -2,16 +2,17 @@
   <div class="p-person databox">
     <h3>Buyer</h3>
     <dl>
+      <dt>name</dt>
+      <dd>{{ buyerName }}</dd>
+
+      <dt>Star Bio</dt>
+      <dd>{{ bio }}</dd>
       <dt>URI</dt>
       <dd><a :href="personURI" target="_blank">LOD Data</a></dd>
       <dt>ULAN URI</dt>
       <dd>
-        <a :href="lod['skos:exactMatch']?.id" target="_blank">ULAN Record</a>
+        <a :href="ulan" target="_blank">ULAN Record</a>
       </dd>
-      <dt>Star Bio</dt>
-      <dd>{{ bio }}</dd>
-      <dt>name</dt>
-      <dd>{{ buyerName }}</dd>
     </dl>
   </div>
 </template>
@@ -46,6 +47,9 @@ export default {
     return { lod: {} };
   },
   computed: {
+    ulan: function () {
+      return this.lod["skos:exactMatch"]?.id;
+    },
     buyerName: function () {
       return getPrimaryName(this.lod);
     },
