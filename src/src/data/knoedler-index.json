@@ -21282,10 +21282,7 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500017284",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Nicolaes%20Eliasz.%20Pickenoy%20-%20Self-Portrait%20at%20the%20Age%20of%20Thirty-Six%20-%20WGA17440.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q632846",
-        "activity_uri": "https://data.getty.edu/provenance/6ca66776-d069-38b3-b6eb-df6b097af43c",
-        "museum_title": "Portrait of a Man",
-        "object_image_url": "https://media.getty.edu/iiif/image/cfff5da4-9c71-466a-aae1-2b415fa4d9da/full/713,/0/default.jpg",
-        "object_page_url": "https://www.getty.edu/art/collection/object/103RK0"
+        "activity_uri": "https://data.getty.edu/provenance/6ca66776-d069-38b3-b6eb-df6b097af43c"
     },
     {
         "name": "T. Gainsborough",
@@ -21399,10 +21396,7 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115200",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Gainsborough%20by%20Thomas%20Gainsborough.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q192720",
-        "activity_uri": "https://data.getty.edu/provenance/fbc91494-294c-30a6-b6dc-885f3ea074ed",
-        "museum_title": "Portrait of James Christie (1730 - 1803)",
-        "object_image_url": "https://media.getty.edu/iiif/image/94ecb201-b71d-4ae4-a48a-2717868cc54d/full/814,/0/default.jpg",
-        "object_page_url": "https://www.getty.edu/art/collection/object/103RAG"
+        "activity_uri": "https://data.getty.edu/provenance/fbc91494-294c-30a6-b6dc-885f3ea074ed"
     },
     {
         "name": "N. Pickenoy",
@@ -21516,10 +21510,7 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500017284",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Nicolaes%20Eliasz.%20Pickenoy%20-%20Self-Portrait%20at%20the%20Age%20of%20Thirty-Six%20-%20WGA17440.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q632846",
-        "activity_uri": "https://data.getty.edu/provenance/6ca66776-d069-38b3-b6eb-df6b097af43c",
-        "museum_title": "Portrait of a Man",
-        "object_image_url": "https://media.getty.edu/iiif/image/cfff5da4-9c71-466a-aae1-2b415fa4d9da/full/713,/0/default.jpg",
-        "object_page_url": "https://www.getty.edu/art/collection/object/103RK0"
+        "activity_uri": "https://data.getty.edu/provenance/6ca66776-d069-38b3-b6eb-df6b097af43c"
     },
     {
         "name": "T. Gainsborough",
@@ -21633,10 +21624,7 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115200",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Gainsborough%20by%20Thomas%20Gainsborough.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q192720",
-        "activity_uri": "https://data.getty.edu/provenance/fbc91494-294c-30a6-b6dc-885f3ea074ed",
-        "museum_title": "Portrait of James Christie (1730 - 1803)",
-        "object_image_url": "https://media.getty.edu/iiif/image/94ecb201-b71d-4ae4-a48a-2717868cc54d/full/814,/0/default.jpg",
-        "object_page_url": "https://www.getty.edu/art/collection/object/103RAG"
+        "activity_uri": "https://data.getty.edu/provenance/fbc91494-294c-30a6-b6dc-885f3ea074ed"
     },
     {
         "name": "Pittoni",
@@ -28599,7 +28587,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500009041",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Portret%20van%20de%20kunstschilder%20Anton%20Mauve%2C%20RP-T-1964-242.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q591907",
-        "activity_uri": "https://data.getty.edu/provenance/a2a316bb-dd1c-3a74-aa60-58d7fd645fed"
+        "activity_uri": "https://data.getty.edu/provenance/a2a316bb-dd1c-3a74-aa60-58d7fd645fed",
+        "museum_title": "Changing Pasture",
+        "object_image_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-22428-001.jpg",
+        "object_page_url": "https://www.metmuseum.org/art/collection/search/437040"
     },
     {
         "name": "A. Mauve",
@@ -28713,7 +28704,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500009041",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Portret%20van%20de%20kunstschilder%20Anton%20Mauve%2C%20RP-T-1964-242.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q591907",
-        "activity_uri": "https://data.getty.edu/provenance/b6367459-4a63-3451-8943-bc05227c03de"
+        "activity_uri": "https://data.getty.edu/provenance/b6367459-4a63-3451-8943-bc05227c03de",
+        "museum_title": "The Return to the Fold",
+        "object_image_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-23076-001.jpg",
+        "object_page_url": "https://www.metmuseum.org/art/collection/search/437042"
     },
     {
         "name": "P. de Hooghe",
@@ -28827,7 +28821,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500020229",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20a%2019-year-old%20man%2C%20possibly%20a%20self%20portrait%2C%20attributed%20to%20Pieter%20de%20Hooch.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q314889",
-        "activity_uri": "https://data.getty.edu/provenance/2b6d97a7-63a6-311d-9802-58fe0793e295"
+        "activity_uri": "https://data.getty.edu/provenance/2b6d97a7-63a6-311d-9802-58fe0793e295",
+        "museum_title": "Leisure Time in an Elegant Setting",
+        "object_image_url": "https://images.metmuseum.org/CRDImages/rl/original/DP146506.jpg",
+        "object_page_url": "https://www.metmuseum.org/art/collection/search/459086"
     },
     {
         "name": "Paul Gauguin",
@@ -29283,7 +29280,10 @@
         "artist_ulan_id": null,
         "artist_wiki_image_url": null,
         "artist_wiki_entity_url": null,
-        "activity_uri": "https://data.getty.edu/provenance/f6f1dbb0-f478-3e35-9050-4dc9139ea7f4"
+        "activity_uri": "https://data.getty.edu/provenance/f6f1dbb0-f478-3e35-9050-4dc9139ea7f4",
+        "museum_title": "Emperor Vespasian Cured by Veronica's Veil",
+        "object_image_url": "https://images.metmuseum.org/CRDImages/rl/original/DP-14326-001.jpg",
+        "object_page_url": "https://www.metmuseum.org/art/collection/search/459227"
     },
     {
         "name": "J.S. Sargent",
@@ -31107,7 +31107,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500003750",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Frederick%20Blum.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q3592147",
-        "activity_uri": "https://data.getty.edu/provenance/14bb66a0-b531-3ddf-a888-320004eab65c"
+        "activity_uri": "https://data.getty.edu/provenance/14bb66a0-b531-3ddf-a888-320004eab65c",
+        "museum_title": "View from the Artist's Window, Grove Street",
+        "object_image_url": "https://images.metmuseum.org/CRDImages/ad/original/ap1976.340.2.jpg",
+        "object_page_url": "https://www.metmuseum.org/art/collection/search/10190"
     },
     {
         "name": "Cosimo Rosselli",
@@ -39543,7 +39546,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500027303",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Eugene%20Fromentin%20Frontispice%20de%20Correspondance.png",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q353746",
-        "activity_uri": "https://data.getty.edu/provenance/9165b2bf-c1fb-3d8d-8b73-02fe9812c2eb"
+        "activity_uri": "https://data.getty.edu/provenance/9165b2bf-c1fb-3d8d-8b73-02fe9812c2eb",
+        "museum_title": "The Banks of the Nile",
+        "object_image_url": "https://www.nationalgallery.org.uk/paintings/eugene-fromentin-the-banks-of-the-nile",
+        "object_page_url": "https://www.nationalgallery.org.uk/paintings/eugene-fromentin-the-banks-of-the-nile"
     },
     {
         "name": "Manet E.",
@@ -39657,7 +39663,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500010363",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/%C3%89douard%20Manet%2C%20en%20buste%2C%20de%20face%20-%20Nadar.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q40599",
-        "activity_uri": "https://data.getty.edu/provenance/482b8569-81e4-3dd2-92f8-e6a9b7bf62f4"
+        "activity_uri": "https://data.getty.edu/provenance/482b8569-81e4-3dd2-92f8-e6a9b7bf62f4",
+        "museum_title": "Corner of a Café-Concert",
+        "object_image_url": "https://www.nationalgallery.org.uk/paintings/edouard-manet-corner-of-a-cafe-concert",
+        "object_page_url": "https://www.nationalgallery.org.uk/paintings/edouard-manet-corner-of-a-cafe-concert"
     },
     {
         "name": "Van Dyck",
@@ -39771,7 +39780,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115190",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sir%20Anthony%20van%20Dyck%20-%20Self-portrait.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q150679",
-        "activity_uri": "https://data.getty.edu/provenance/837f8512-92c5-3212-a290-538fe5f5f36c"
+        "activity_uri": "https://data.getty.edu/provenance/837f8512-92c5-3212-a290-538fe5f5f36c",
+        "museum_title": "Marchesa Elena Grimaldi Cattaneo, 1623",
+        "object_image_url": "https://media.nga.gov/iiif/be5b8763-bff0-4394-9e06-60fbbbd44356/full/!588,600/0/default.jpg",
+        "object_page_url": "https://www.nga.gov/collection/art-object-page.1231.html"
     },
     {
         "name": "Van Dyck",
@@ -39885,7 +39897,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115190",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sir%20Anthony%20van%20Dyck%20-%20Self-portrait.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q150679",
-        "activity_uri": "https://data.getty.edu/provenance/9d32d56d-3247-39fc-93fa-6eba0b07f283"
+        "activity_uri": "https://data.getty.edu/provenance/9d32d56d-3247-39fc-93fa-6eba0b07f283",
+        "museum_title": "Maddalena Cattaneo",
+        "object_image_url": "https://media.nga.gov/iiif/34d0fbbe-9647-4164-ac58-61e581d7c23f/full/!588,600/0/default.jpg",
+        "object_page_url": "https://www.nga.gov/collection/art-object-page.1233.html"
     },
     {
         "name": "Van Dyck",
@@ -64887,7 +64902,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500004242",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Painter%20and%20His%20Pug%20by%20William%20Hogarth.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q171344",
-        "activity_uri": "https://data.getty.edu/provenance/c31556ec-5cea-342d-8f11-76cc15bf9498"
+        "activity_uri": "https://data.getty.edu/provenance/c31556ec-5cea-342d-8f11-76cc15bf9498",
+        "museum_title": "Benjamin Hoadly, Bishop of Winchester",
+        "object_image_url": "https://media.tate.org.uk/art/images/work/N/N02/N02736_10.jpg",
+        "object_page_url": "https://www.tate.org.uk/art/artworks/hogarth-benjamin-hoadly-bishop-of-winchester-n02736"
     },
     {
         "name": "Sir Joshua Reynolds",
@@ -65115,7 +65133,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500000974",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Willem%20de%20Kooning%20in%20his%20studio.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q132305",
-        "activity_uri": "https://data.getty.edu/provenance/da176a32-b545-321c-8c37-4d3157ac78b1"
+        "activity_uri": "https://data.getty.edu/provenance/da176a32-b545-321c-8c37-4d3157ac78b1",
+        "museum_title": "The Visit",
+        "object_image_url": "https://media.tate.org.uk/art/images/work/T/T01/T01108_9.jpg",
+        "object_page_url": "https://www.tate.org.uk/art/artworks/kooning-the-visit-t01108"
     },
     {
         "name": "H.G.E. Degas",
@@ -65229,7 +65250,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115194",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Edgar%20Degas%20self%20portrait%201855FXD.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q46373",
-        "activity_uri": "https://data.getty.edu/provenance/f6b271ee-7295-3f8a-8e37-ca2e3b1e6da3"
+        "activity_uri": "https://data.getty.edu/provenance/f6b271ee-7295-3f8a-8e37-ca2e3b1e6da3",
+        "museum_title": "Dancer Stretching at the Bar",
+        "object_image_url": "https://www.artic.edu/iiif/2/1178d05a-3713-a505-d8ad-85e29bee031c",
+        "object_page_url": "https://www.artic.edu/artworks/16758/dancer-stretching-at-the-bar"
     },
     {
         "name": "J.S. Sargent",
@@ -65343,7 +65367,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500023972",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Singer%20Sargent%201903.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q155626",
-        "activity_uri": "https://data.getty.edu/provenance/55683645-8d49-3923-aa73-53f2665176d0"
+        "activity_uri": "https://data.getty.edu/provenance/55683645-8d49-3923-aa73-53f2665176d0",
+        "museum_title": "The Fountain, Villa Torlonia, Frascati, Italy",
+        "object_image_url": "https://www.artic.edu/iiif/2/3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08",
+        "object_page_url": "https://www.artic.edu/artworks/69780/the-fountain-villa-torlonia-frascati-italy"
     },
     {
         "name": "W. Homer",
@@ -65457,7 +65484,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500019202",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Winslow%20Homer%20by%20Sarony.jpeg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q344838",
-        "activity_uri": "https://data.getty.edu/provenance/509e7f35-52ed-3ffe-a30c-6b5b99f89ba7"
+        "activity_uri": "https://data.getty.edu/provenance/509e7f35-52ed-3ffe-a30c-6b5b99f89ba7",
+        "museum_title": "Prout’s Neck, Breakers",
+        "object_image_url": "https://www.artic.edu/iiif/2/1f68e1a0-567a-e829-3e2f-ff9857942f9e",
+        "object_page_url": "https://www.artic.edu/artworks/16815/prout-s-neck-breakers"
     },
     {
         "name": "J.S. Sargent",
@@ -65571,7 +65601,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500023972",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Singer%20Sargent%201903.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q155626",
-        "activity_uri": "https://data.getty.edu/provenance/8495d10d-1456-3616-a9d0-6309aef9c623"
+        "activity_uri": "https://data.getty.edu/provenance/8495d10d-1456-3616-a9d0-6309aef9c623",
+        "museum_title": "Rehearsal of the Pasdeloup Orchestra at the Cirque d’Hiver",
+        "object_image_url": "https://www.artic.edu/iiif/2/f7ef1f0f-c5c9-6794-9283-2e7ebcde95cd",
+        "object_page_url": "https://www.artic.edu/artworks/121628/rehearsal-of-the-pasdeloup-orchestra-at-the-cirque-d-hiver"
     },
     {
         "name": "Winslow Homer",
@@ -65685,7 +65718,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500019202",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Winslow%20Homer%20by%20Sarony.jpeg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q344838",
-        "activity_uri": "https://data.getty.edu/provenance/249eae94-bc23-39ee-8d6d-6cf85d41c545"
+        "activity_uri": "https://data.getty.edu/provenance/249eae94-bc23-39ee-8d6d-6cf85d41c545",
+        "museum_title": "The Herring Net",
+        "object_image_url": "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575",
+        "object_page_url": "https://www.artic.edu/artworks/25865/the-herring-net"
     },
     {
         "name": "Raeburn H. Sir",
@@ -65799,7 +65835,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500032325",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sir%20Henry%20Raeburn%20%28self-portrait%29.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q561916",
-        "activity_uri": "https://data.getty.edu/provenance/65767bfd-4385-3443-803f-0b874bf191b1"
+        "activity_uri": "https://data.getty.edu/provenance/65767bfd-4385-3443-803f-0b874bf191b1",
+        "museum_title": "Portrait of a Man with Gray Hair",
+        "object_image_url": "https://www.artic.edu/iiif/2/51a56e7e-ffa2-bb9e-7f16-99bc0b4b4d66",
+        "object_page_url": "https://www.artic.edu/artworks/15708/portrait-of-a-man-with-gray-hair"
     },
     {
         "name": "Colyn de Coter",
@@ -65913,7 +65952,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500022726",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Coter%20Pruszcz%20Polyptych.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q1108307",
-        "activity_uri": "https://data.getty.edu/provenance/7c16615a-9361-3126-9026-5697faa847e5"
+        "activity_uri": "https://data.getty.edu/provenance/7c16615a-9361-3126-9026-5697faa847e5",
+        "museum_title": "Virgin and Child Crowned by Angels",
+        "object_image_url": "https://www.artic.edu/iiif/2/6fce7ae8-25e8-d7d9-7f36-0aee3703abea",
+        "object_page_url": "https://www.artic.edu/artworks/16257/virgin-and-child-crowned-by-angels"
     },
     {
         "name": "J.S. Sargent",
@@ -66027,7 +66069,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500023972",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Singer%20Sargent%201903.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q155626",
-        "activity_uri": "https://data.getty.edu/provenance/8d5fedfb-a768-3f58-b071-1513a3b03856"
+        "activity_uri": "https://data.getty.edu/provenance/8d5fedfb-a768-3f58-b071-1513a3b03856",
+        "museum_title": "Fountain of Neptune",
+        "object_image_url": "https://www.artic.edu/iiif/2/15339910-f650-d1ff-2044-1fda9d447574",
+        "object_page_url": "https://www.artic.edu/artworks/145906/fountain-of-neptune"
     },
     {
         "name": "El Greco",
@@ -66141,7 +66186,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500010916",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/El%20Greco%20-%20Portrait%20of%20a%20Man%20-%20WGA10554.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q301",
-        "activity_uri": "https://data.getty.edu/provenance/c6a249b1-a6cf-3b74-b7fa-982b85a79b97"
+        "activity_uri": "https://data.getty.edu/provenance/c6a249b1-a6cf-3b74-b7fa-982b85a79b97",
+        "museum_title": "Saint Martin and the Beggar",
+        "object_image_url": "https://www.artic.edu/iiif/2/52098776-6e2e-9683-e258-7b1cec8660dd",
+        "object_page_url": "https://www.artic.edu/artworks/67362/saint-martin-and-the-beggar"
     },
     {
         "name": "Carrier E.",
@@ -66255,7 +66303,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500007012",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Eug%C3%A8ne%20Carri%C3%A8re%20-%20Self-portrait.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q461464",
-        "activity_uri": "https://data.getty.edu/provenance/b48f6643-a9c1-3e44-9ed9-64e5f0c1159b"
+        "activity_uri": "https://data.getty.edu/provenance/b48f6643-a9c1-3e44-9ed9-64e5f0c1159b",
+        "museum_title": "Portrait of a Boy",
+        "object_image_url": "https://www.artic.edu/iiif/2/8f385b97-9e44-4b7b-a7ce-acd9bee0a732",
+        "object_page_url": "https://www.artic.edu/artworks/2823/portrait-of-a-boy"
     },
     {
         "name": "C. Monet",
@@ -66369,7 +66420,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500019484",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Claude%20Monet%201899%20Nadar%20crop.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q296",
-        "activity_uri": "https://data.getty.edu/provenance/085bebe7-41a8-30f2-a56f-615912bf622f"
+        "activity_uri": "https://data.getty.edu/provenance/085bebe7-41a8-30f2-a56f-615912bf622f",
+        "museum_title": "The Artist’s House at Argenteuil",
+        "object_image_url": "https://www.artic.edu/iiif/2/7d533ed4-ff54-fa2c-64f4-2b16bfbb5880",
+        "object_page_url": "https://www.artic.edu/artworks/16554/the-artist-s-house-at-argenteuil"
     },
     {
         "name": "Pierre Dubordieu",
@@ -66597,7 +66651,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500118936",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Vicente%20L%C3%B3pez%20Porta%C3%B1a%20-%20el%20pintor%20Francisco%20de%20Goya.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q5432",
-        "activity_uri": "https://data.getty.edu/provenance/bd42a3aa-5b02-3a61-bf6a-47efb5ce01f8"
+        "activity_uri": "https://data.getty.edu/provenance/bd42a3aa-5b02-3a61-bf6a-47efb5ce01f8",
+        "museum_title": "The Hanged Monk",
+        "object_image_url": "https://www.artic.edu/iiif/2/27b32b73-c08f-149e-e41d-a97185f062e3",
+        "object_page_url": "https://www.artic.edu/artworks/22808/the-hanged-monk"
     },
     {
         "name": "B. Fabritius",
@@ -66939,7 +66996,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500006043",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/1739%20JohnSmibert%20self%20portrait%20BermudaGroup%20detail%20Yale.png",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q3182482",
-        "activity_uri": "https://data.getty.edu/provenance/65fdd3b0-3c0c-3755-b8f2-1854308c622f"
+        "activity_uri": "https://data.getty.edu/provenance/65fdd3b0-3c0c-3755-b8f2-1854308c622f",
+        "museum_title": "Richard Bill",
+        "object_image_url": "https://www.artic.edu/iiif/2/10bdba64-db41-0811-f681-c904afded43c",
+        "object_page_url": "https://www.artic.edu/artworks/49702/richard-bill"
     },
     {
         "name": "Thomas Sully",
@@ -67053,7 +67113,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500006873",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Sully.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q786545",
-        "activity_uri": "https://data.getty.edu/provenance/1086e0de-ba55-300c-b28e-8296139f12f1"
+        "activity_uri": "https://data.getty.edu/provenance/1086e0de-ba55-300c-b28e-8296139f12f1",
+        "museum_title": "Dr. Joseph Klapp",
+        "object_image_url": "https://www.artic.edu/iiif/2/18bf4909-8fb1-1971-4256-9945d712a279",
+        "object_page_url": "https://www.artic.edu/artworks/96621/dr-joseph-klapp"
     },
     {
         "name": "Thomas Sully",
@@ -67167,7 +67230,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500006873",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Sully.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q786545",
-        "activity_uri": "https://data.getty.edu/provenance/306ce64f-cdc3-341d-8785-d131a6c9e176"
+        "activity_uri": "https://data.getty.edu/provenance/306ce64f-cdc3-341d-8785-d131a6c9e176",
+        "museum_title": "Mrs. Klapp (Anna Milnor)",
+        "object_image_url": "https://www.artic.edu/iiif/2/eac2c2c9-fe4a-ba6f-948c-b579b0f2bca3",
+        "object_page_url": "https://www.artic.edu/artworks/72375/mrs-klapp-anna-milnor"
     },
     {
         "name": "Anders Zorn",
@@ -69453,7 +69519,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500009041",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Portret%20van%20de%20kunstschilder%20Anton%20Mauve%2C%20RP-T-1964-242.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q591907",
-        "activity_uri": "https://data.getty.edu/provenance/e381afc5-b763-319a-87f0-aed7c9b999a7"
+        "activity_uri": "https://data.getty.edu/provenance/e381afc5-b763-319a-87f0-aed7c9b999a7",
+        "museum_title": "Early Morning Plowing",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4559/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/983/"
     },
     {
         "name": "Daubigny",
@@ -69567,7 +69636,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115164",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Charles%20francois%20daubigny.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q252357",
-        "activity_uri": "https://data.getty.edu/provenance/43f4aa35-38fd-397a-8276-f9515148b535"
+        "activity_uri": "https://data.getty.edu/provenance/43f4aa35-38fd-397a-8276-f9515148b535",
+        "museum_title": "The Washerwomen",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/8758/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/146/"
     },
     {
         "name": "Jules Dupré",
@@ -69681,10 +69753,7 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500029859",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jules%20Dupr%C3%A9%20autoportrait.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q959212",
-        "activity_uri": "https://data.getty.edu/provenance/aba83bca-a2c8-3aa0-afb9-a34449ba56b3",
-        "museum_title": "The River",
-        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/8757/thumbnail",
-        "object_page_url": "https://collections.frick.org/objects/153/"
+        "activity_uri": "https://data.getty.edu/provenance/aba83bca-a2c8-3aa0-afb9-a34449ba56b3"
     },
     {
         "name": "Troyon",
@@ -69798,7 +69867,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500003566",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Constant%20Troyon%201865.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q219403",
-        "activity_uri": "https://data.getty.edu/provenance/4b4d7454-b020-3973-9606-07cca0df63c3"
+        "activity_uri": "https://data.getty.edu/provenance/4b4d7454-b020-3973-9606-07cca0df63c3",
+        "museum_title": "A Pasture in Normandy",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/8759/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/376/"
     },
     {
         "name": "J.B.C. Corot",
@@ -69912,7 +69984,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115390",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean-Baptiste-Camille%20Corot%20c1850.png",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q148475",
-        "activity_uri": "https://data.getty.edu/provenance/5044f110-1a59-302a-8404-e14421ca86b0"
+        "activity_uri": "https://data.getty.edu/provenance/5044f110-1a59-302a-8404-e14421ca86b0",
+        "museum_title": "Ville-d'Avray",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/8760/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/83/"
     },
     {
         "name": "C. Troyon",
@@ -70140,7 +70215,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500027794",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Frans%20Hals%20%281582-83%E2%80%931666%29%20MET%20DP251935.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q167654",
-        "activity_uri": "https://data.getty.edu/provenance/f2387fb5-0a8d-376c-b84c-c28532ca89ec"
+        "activity_uri": "https://data.getty.edu/provenance/f2387fb5-0a8d-376c-b84c-c28532ca89ec",
+        "museum_title": "Portrait of a Woman",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4444/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/203/"
     },
     {
         "name": "Paul Veronese",
@@ -70254,7 +70332,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500021218",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Paolo%20Veronese%20-%20AUTORITRATTO%20%282%29%20-%20Museo%20dell%27Ermitage.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q9440",
-        "activity_uri": "https://data.getty.edu/provenance/35f56457-5a10-395e-967e-c64d3926b1cc"
+        "activity_uri": "https://data.getty.edu/provenance/35f56457-5a10-395e-967e-c64d3926b1cc",
+        "museum_title": "The Choice Between Virtue and Vice",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/7339/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/276/"
     },
     {
         "name": "Sir A. Van Dyck",
@@ -70482,7 +70563,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500121064",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Aelbert%20Cuyp%20-%20The%20Maas%20at%20Dordrecht%20-%20Google%20Art%20Project.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q313194",
-        "activity_uri": "https://data.getty.edu/provenance/4ed3102c-b71f-3dae-a2a2-31639269abad"
+        "activity_uri": "https://data.getty.edu/provenance/4ed3102c-b71f-3dae-a2a2-31639269abad",
+        "museum_title": "Cows and Herdsman by a River",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/20017/thumbnail",
+        "object_page_url": "https://collections.frick.org/search/1902.1.28"
     },
     {
         "name": "S. Ruysdael",
@@ -70596,7 +70680,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500010095",
         "artist_wiki_image_url": null,
         "artist_wiki_entity_url": null,
-        "activity_uri": "https://data.getty.edu/provenance/ae82afb5-5c85-3bd1-9607-5f8298d9bcf3"
+        "activity_uri": "https://data.getty.edu/provenance/ae82afb5-5c85-3bd1-9607-5f8298d9bcf3",
+        "museum_title": "Emma Hart, Later Lady Hamilton, as \"Nature\"",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/21066/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/130/"
     },
     {
         "name": "J. Terburg",
@@ -70710,7 +70797,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500017511",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Zelfportret%20by%20Gerard%20ter%20Borch.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q346808",
-        "activity_uri": "https://data.getty.edu/provenance/5f5e51d8-ccad-3318-b8dc-ddbc29395150"
+        "activity_uri": "https://data.getty.edu/provenance/5f5e51d8-ccad-3318-b8dc-ddbc29395150",
+        "museum_title": "Portrait of a Young Lady",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4423/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/354/"
     },
     {
         "name": "Gainsborough",
@@ -70824,7 +70914,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115200",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Gainsborough%20by%20Thomas%20Gainsborough.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q192720",
-        "activity_uri": "https://data.getty.edu/provenance/36fa2f99-1a5f-368c-a644-81b4331a68c5"
+        "activity_uri": "https://data.getty.edu/provenance/36fa2f99-1a5f-368c-a644-81b4331a68c5",
+        "museum_title": "Mrs. Charles Hatchett",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4422/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/348/"
     },
     {
         "name": "Romney",
@@ -70938,7 +71031,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115779",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/George%20Romney%20-%20Portrait%20de%20l%27artiste.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q371280",
-        "activity_uri": "https://data.getty.edu/provenance/cd522bca-0c9d-3773-a5cc-d4021f18f0ca"
+        "activity_uri": "https://data.getty.edu/provenance/cd522bca-0c9d-3773-a5cc-d4021f18f0ca",
+        "museum_title": "Miss Frances Mary Harford",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/2569/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/353/"
     },
     {
         "name": "J. M. W. Turner",
@@ -71052,7 +71148,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500026846",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Mallord%20William%20Turner%20auto-retrato.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q159758",
-        "activity_uri": "https://data.getty.edu/provenance/d8f4677b-67ad-3ced-a9ad-f3fb5a73e21c"
+        "activity_uri": "https://data.getty.edu/provenance/d8f4677b-67ad-3ced-a9ad-f3fb5a73e21c",
+        "museum_title": "Fishing Boats Entering Calais Harbor",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4426/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/266/"
     },
     {
         "name": "Corot",
@@ -71166,7 +71265,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115390",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean-Baptiste-Camille%20Corot%20c1850.png",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q148475",
-        "activity_uri": "https://data.getty.edu/provenance/ff4a2e03-b891-311c-8391-e2d031c40a3f"
+        "activity_uri": "https://data.getty.edu/provenance/ff4a2e03-b891-311c-8391-e2d031c40a3f",
+        "museum_title": "The Boatman of Mortefontaine",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/7333/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/81/"
     },
     {
         "name": "Rousseau",
@@ -71280,7 +71382,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500019946",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Buste%20Th.%20Rousseau%20n2.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q310025",
-        "activity_uri": "https://data.getty.edu/provenance/ba792bf9-76f1-3d6a-8155-3e3a3ae3f6ac"
+        "activity_uri": "https://data.getty.edu/provenance/ba792bf9-76f1-3d6a-8155-3e3a3ae3f6ac",
+        "museum_title": "The Village of Becquigny",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4421/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/131/the-village-of-becquigny?ctx=c243a7327732c1bec6ee173e274e0e884e1b94dd&idx=0"
     },
     {
         "name": "Velasquez",
@@ -71394,7 +71499,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500016881",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Diego%20Vel%C3%A1zquez%20Autorretrato%2045%20x%2038%20cm%20-%20Colecci%C3%B3n%20Real%20Academia%20de%20Bellas%20Artes%20de%20San%20Carlos%20-%20Museo%20de%20Bellas%20Artes%20de%20Valencia.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q297",
-        "activity_uri": "https://data.getty.edu/provenance/dab18415-4c07-390d-a70e-158506cab88f"
+        "activity_uri": "https://data.getty.edu/provenance/dab18415-4c07-390d-a70e-158506cab88f",
+        "museum_title": "King Philip IV of Spain",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4449/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/271/king-philip-iv-of-spain?ctx=3dd11469f606400e004fdce4c06ae9be7a4dc360&idx=0"
     },
     {
         "name": "Isaac V. Ostade",
@@ -71508,7 +71616,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500013442",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Isaac%20van%20Ostade%2C%20by%20Cornelis%20Dusart.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q217648",
-        "activity_uri": "https://data.getty.edu/provenance/36e3dfdc-5673-3d2e-9f0e-edcd066c9115"
+        "activity_uri": "https://data.getty.edu/provenance/36e3dfdc-5673-3d2e-9f0e-edcd066c9115",
+        "museum_title": "Travelers Halting at an Inn",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/20058/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/358/"
     },
     {
         "name": "J. Maris",
@@ -71622,7 +71733,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500022053",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jacob%20Maris%20by%20Matthijs%20Maris.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q978158",
-        "activity_uri": "https://data.getty.edu/provenance/0312c855-a7a6-3260-9d15-d2c0955f46b2"
+        "activity_uri": "https://data.getty.edu/provenance/0312c855-a7a6-3260-9d15-d2c0955f46b2",
+        "museum_title": "The Bridge",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/1237/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/116/"
     },
     {
         "name": "Corot",
@@ -71736,7 +71850,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115390",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean-Baptiste-Camille%20Corot%20c1850.png",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q148475",
-        "activity_uri": "https://data.getty.edu/provenance/8146fb74-1002-3214-9979-41384bf37636"
+        "activity_uri": "https://data.getty.edu/provenance/8146fb74-1002-3214-9979-41384bf37636",
+        "museum_title": "The Lake",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4430/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/82/"
     },
     {
         "name": "Sir J. Reynolds",
@@ -71850,7 +71967,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500004539",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sir%20Joshua%20Reynolds%20-%20Self-Portrait%20-%20Google%20Art%20Project%20%282315517%29FXD.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q194402",
-        "activity_uri": "https://data.getty.edu/provenance/b9a8ffa1-8415-3f98-9242-37ca4bbf13ac"
+        "activity_uri": "https://data.getty.edu/provenance/b9a8ffa1-8415-3f98-9242-37ca4bbf13ac",
+        "museum_title": "Selina, Lady Skipwith",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4433/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/127/"
     },
     {
         "name": "Sir H. Raeburn",
@@ -71964,7 +72084,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500032325",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sir%20Henry%20Raeburn%20%28self-portrait%29.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q561916",
-        "activity_uri": "https://data.getty.edu/provenance/7a39d177-57db-3697-9591-4d0d2d5325a9"
+        "activity_uri": "https://data.getty.edu/provenance/7a39d177-57db-3697-9591-4d0d2d5325a9",
+        "museum_title": "James Cruikshank",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/8804/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/234/"
     },
     {
         "name": "M. Hobbema",
@@ -72078,7 +72201,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500029015",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Portret%20van%20Meindert%20Hobbema%2C%20RP-T-1940-528.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q336908",
-        "activity_uri": "https://data.getty.edu/provenance/98486cf8-48f5-3b57-9d4b-e0b10288e87f"
+        "activity_uri": "https://data.getty.edu/provenance/98486cf8-48f5-3b57-9d4b-e0b10288e87f",
+        "museum_title": "Village with Water Mill among Trees",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4448/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/206/"
     },
     {
         "name": "G.B. Tiepolo",
@@ -72306,7 +72432,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115190",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sir%20Anthony%20van%20Dyck%20-%20Self-portrait.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q150679",
-        "activity_uri": "https://data.getty.edu/provenance/80af3ad2-3de1-3d6c-8df9-de2961ea8fbb"
+        "activity_uri": "https://data.getty.edu/provenance/80af3ad2-3de1-3d6c-8df9-de2961ea8fbb",
+        "museum_title": "Genoese Noblewoman",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4434/full",
+        "object_page_url": "https://collections.frick.org/objects/619/"
     },
     {
         "name": "A. Cuyp",
@@ -72420,7 +72549,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500121064",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Aelbert%20Cuyp%20-%20The%20Maas%20at%20Dordrecht%20-%20Google%20Art%20Project.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q313194",
-        "activity_uri": "https://data.getty.edu/provenance/5e4ff6e9-96bb-32ab-9673-6aa06d6fcdd7"
+        "activity_uri": "https://data.getty.edu/provenance/5e4ff6e9-96bb-32ab-9673-6aa06d6fcdd7",
+        "museum_title": "River Scene",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4590/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/144/"
     },
     {
         "name": "Troyon",
@@ -72648,7 +72780,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115390",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean-Baptiste-Camille%20Corot%20c1850.png",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q148475",
-        "activity_uri": "https://data.getty.edu/provenance/f6ec4dab-2f38-3050-b8b5-c7a50bfa2e7b"
+        "activity_uri": "https://data.getty.edu/provenance/f6ec4dab-2f38-3050-b8b5-c7a50bfa2e7b",
+        "museum_title": "The Pond",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/8761/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/364/"
     },
     {
         "name": "Corot",
@@ -72876,7 +73011,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500022619",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Self-Portrait-1788%29%20by%20Sir%20Thomas%20Lawrence%2C%20PRA.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q312096",
-        "activity_uri": "https://data.getty.edu/provenance/ea2e3787-0d64-3535-acd9-4a31e5c4ee15"
+        "activity_uri": "https://data.getty.edu/provenance/ea2e3787-0d64-3535-acd9-4a31e5c4ee15",
+        "museum_title": "Julia, Lady Peel",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4424/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/110/"
     },
     {
         "name": "Geo. Romney",
@@ -72990,7 +73128,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115779",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/George%20Romney%20-%20Portrait%20de%20l%27artiste.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q371280",
-        "activity_uri": "https://data.getty.edu/provenance/2cb9a1a0-5baa-34bb-9167-042bfc1173d4"
+        "activity_uri": "https://data.getty.edu/provenance/2cb9a1a0-5baa-34bb-9167-042bfc1173d4",
+        "museum_title": "Emma Hart, Later Lady Hamilton, as \"Nature\"",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/21066/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/130/"
     },
     {
         "name": "Solomon Ruysdael",
@@ -73218,7 +73359,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500010491",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Metsu%2C%20Gabriel%20-%20himself%20in%20the%20painting%20Liebespaar%20beim%20Fr%C3%BChst%C3%BCck%20-%201661.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q355213",
-        "activity_uri": "https://data.getty.edu/provenance/575eb9e6-f20d-3c0b-9d71-50137c2c6e24"
+        "activity_uri": "https://data.getty.edu/provenance/575eb9e6-f20d-3c0b-9d71-50137c2c6e24",
+        "museum_title": "A Lady at Her Toilet",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4428/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/357/"
     },
     {
         "name": "Gilbert Stuart",
@@ -73446,7 +73590,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500026846",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Mallord%20William%20Turner%20auto-retrato.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q159758",
-        "activity_uri": "https://data.getty.edu/provenance/6e6b73d6-f349-38b9-80cb-486217999a34"
+        "activity_uri": "https://data.getty.edu/provenance/6e6b73d6-f349-38b9-80cb-486217999a34",
+        "museum_title": "Mortlake Terrace: Early Summer Morning",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/18804/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/267/"
     },
     {
         "name": "Constable",
@@ -73560,7 +73707,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115382",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Constable%20by%20Daniel%20Gardner%2C%201796.JPG",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q159297",
-        "activity_uri": "https://data.getty.edu/provenance/466c12fa-3c5b-3782-806f-0dda191ef25a"
+        "activity_uri": "https://data.getty.edu/provenance/466c12fa-3c5b-3782-806f-0dda191ef25a",
+        "museum_title": "Salisbury Cathedral from the Bishop's Grounds",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4437/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/79/"
     },
     {
         "name": "A. Van Dyck",
@@ -73674,7 +73824,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115190",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sir%20Anthony%20van%20Dyck%20-%20Self-portrait.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q150679",
-        "activity_uri": "https://data.getty.edu/provenance/5f228f4d-7752-3e83-b9c6-f60c4569d366"
+        "activity_uri": "https://data.getty.edu/provenance/5f228f4d-7752-3e83-b9c6-f60c4569d366",
+        "museum_title": "Margareta de Vos",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4440/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/157/"
     },
     {
         "name": "Greco",
@@ -73788,7 +73941,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500010916",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/El%20Greco%20-%20Portrait%20of%20a%20Man%20-%20WGA10554.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q301",
-        "activity_uri": "https://data.getty.edu/provenance/562b5cc5-cfc6-3509-bb2e-244a6ebd0c01"
+        "activity_uri": "https://data.getty.edu/provenance/562b5cc5-cfc6-3509-bb2e-244a6ebd0c01",
+        "museum_title": "St. Jerome",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/19097/full",
+        "object_page_url": "https://collections.frick.org/objects/198/st-jerome?ctx=ba958e3a195e49eac2cabb0a22985768bffef40d&idx=0"
     },
     {
         "name": "A. Van Dyck",
@@ -73902,7 +74058,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115190",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sir%20Anthony%20van%20Dyck%20-%20Self-portrait.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q150679",
-        "activity_uri": "https://data.getty.edu/provenance/73bf0f2a-6f74-3ebc-9c28-dd965a9f861d"
+        "activity_uri": "https://data.getty.edu/provenance/73bf0f2a-6f74-3ebc-9c28-dd965a9f861d",
+        "museum_title": "Ottaviano Canevari",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/1230/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/158/"
     },
     {
         "name": "A. Cuyp",
@@ -74016,7 +74175,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500019244",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Portr%C3%A6t%20af%20den%20venezianske%20maler%20Giovanni%20Bellini.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q17169",
-        "activity_uri": "https://data.getty.edu/provenance/f2594bda-d756-3918-8c38-a2aebb5fdf9e"
+        "activity_uri": "https://data.getty.edu/provenance/f2594bda-d756-3918-8c38-a2aebb5fdf9e",
+        "museum_title": "St. Francis in the Desert",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/7344/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/39/"
     },
     {
         "name": "J. Van der Capelle",
@@ -74130,7 +74292,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500019121",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Gerbrand%20van%20den%20Eeckhout%20-%20Jan%20van%20de%20Capelle%20%281624-%2725-1679%29%20%5E%20-%20SA%2040424%20-%20Amsterdam%20Museum.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q759804",
-        "activity_uri": "https://data.getty.edu/provenance/0cf86f31-1e4c-3ca1-a3b0-9738da86faf4"
+        "activity_uri": "https://data.getty.edu/provenance/0cf86f31-1e4c-3ca1-a3b0-9738da86faf4",
+        "museum_title": "A View of the River Maas Before Rotterdam",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/1106/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/356/"
     },
     {
         "name": "Frans Hals",
@@ -74244,7 +74409,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500027794",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Frans%20Hals%20%281582-83%E2%80%931666%29%20MET%20DP251935.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q167654",
-        "activity_uri": "https://data.getty.edu/provenance/c535adaa-89f0-3c09-a250-cc8342b24161"
+        "activity_uri": "https://data.getty.edu/provenance/c535adaa-89f0-3c09-a250-cc8342b24161",
+        "museum_title": "Portrait of a Painter",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4431/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/202/"
     },
     {
         "name": "Sir Joshua Reynolds",
@@ -74586,7 +74754,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500017409",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ca%27%20Rezzonico%20-%20Ritratto%20di%20Francesco%20Guardi%201764%20-%20Pietro%20Longhi.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q318769",
-        "activity_uri": "https://data.getty.edu/provenance/ad2ee591-5049-37ca-affa-6ef475d7fea4"
+        "activity_uri": "https://data.getty.edu/provenance/ad2ee591-5049-37ca-affa-6ef475d7fea4",
+        "museum_title": "View of the Cannaregio Canal in Venice",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4565/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/700/"
     },
     {
         "name": "F. Guardi",
@@ -74700,7 +74871,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500017409",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ca%27%20Rezzonico%20-%20Ritratto%20di%20Francesco%20Guardi%201764%20-%20Pietro%20Longhi.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q318769",
-        "activity_uri": "https://data.getty.edu/provenance/5c91a8f9-e702-3476-950f-cd21c7fefcf3"
+        "activity_uri": "https://data.getty.edu/provenance/5c91a8f9-e702-3476-950f-cd21c7fefcf3",
+        "museum_title": "View of the Cannaregio Canal in Venice",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4565/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/700/"
     },
     {
         "name": "Greco",
@@ -74814,7 +74988,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500010916",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/El%20Greco%20-%20Portrait%20of%20a%20Man%20-%20WGA10554.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q301",
-        "activity_uri": "https://data.getty.edu/provenance/90dfea40-6f56-35eb-9777-dc5f7f8593d7"
+        "activity_uri": "https://data.getty.edu/provenance/90dfea40-6f56-35eb-9777-dc5f7f8593d7",
+        "museum_title": "Vincenzo Anastagi",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/7340/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/199/"
     },
     {
         "name": "J. Hoppner",
@@ -74928,7 +75105,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500013173",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Hoppner%20by%20John%20Hoppner.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q326066",
-        "activity_uri": "https://data.getty.edu/provenance/ba6864e9-610b-3a47-8691-f814163e2746"
+        "activity_uri": "https://data.getty.edu/provenance/ba6864e9-610b-3a47-8691-f814163e2746",
+        "museum_title": "The Ladies Sarah and Catherine Bligh",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/8769/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/102/"
     },
     {
         "name": "Van Dyck",
@@ -75042,7 +75222,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115190",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sir%20Anthony%20van%20Dyck%20-%20Self-portrait.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q150679",
-        "activity_uri": "https://data.getty.edu/provenance/977bdd96-5702-334e-bdfd-2fa8d6d437f6"
+        "activity_uri": "https://data.getty.edu/provenance/977bdd96-5702-334e-bdfd-2fa8d6d437f6",
+        "museum_title": "Frans Snyders",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4439/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/155/"
     },
     {
         "name": "J. M. W. Turner R. A.",
@@ -75156,7 +75339,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500026846",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Mallord%20William%20Turner%20auto-retrato.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q159758",
-        "activity_uri": "https://data.getty.edu/provenance/4a039b16-4a20-373e-96a2-67d537c0c342"
+        "activity_uri": "https://data.getty.edu/provenance/4a039b16-4a20-373e-96a2-67d537c0c342",
+        "museum_title": "Antwerp: Van Goyen Looking Out for a Subject",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4418/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/265/"
     },
     {
         "name": "Hobbema",
@@ -75270,7 +75456,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500029015",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Portret%20van%20Meindert%20Hobbema%2C%20RP-T-1940-528.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q336908",
-        "activity_uri": "https://data.getty.edu/provenance/5fe04074-b39b-31fa-afd7-a7c4ceb7016f"
+        "activity_uri": "https://data.getty.edu/provenance/5fe04074-b39b-31fa-afd7-a7c4ceb7016f",
+        "museum_title": "Village among Trees",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4420/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/205/"
     },
     {
         "name": "Vermeer",
@@ -75384,7 +75573,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500032927",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cropped%20version%20of%20Jan%20Vermeer%20van%20Delft%20002.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q41264",
-        "activity_uri": "https://data.getty.edu/provenance/d4608c4c-5f7b-3e3f-8a88-804db865f00f"
+        "activity_uri": "https://data.getty.edu/provenance/d4608c4c-5f7b-3e3f-8a88-804db865f00f",
+        "museum_title": "Girl Interrupted at Her Music",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/18885/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/273/"
     },
     {
         "name": "Wouvermans",
@@ -75498,7 +75690,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500019917",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Portret%20van%20kunstenaar%20Philips%20Wouwermans%20Portretten%20van%20kunstenaars%20%28serietitel%29%2C%20RP-P-1907-210.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q454671",
-        "activity_uri": "https://data.getty.edu/provenance/7cf1118d-19e7-3c4e-b8c6-ad99c2eb0f6d"
+        "activity_uri": "https://data.getty.edu/provenance/7cf1118d-19e7-3c4e-b8c6-ad99c2eb0f6d",
+        "museum_title": "The Cavalry Camp",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/20012/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/361/"
     },
     {
         "name": "Renoir",
@@ -75612,7 +75807,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115467",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pierre%20Auguste%20Renoir%2C%20uncropped%20image.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q39931",
-        "activity_uri": "https://data.getty.edu/provenance/f2f861fb-2153-30fb-b48e-ef7ed44e37f4"
+        "activity_uri": "https://data.getty.edu/provenance/f2f861fb-2153-30fb-b48e-ef7ed44e37f4",
+        "museum_title": "La Promenade",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/7341/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/241/"
     },
     {
         "name": "J.M.N. Whistler",
@@ -75726,7 +75924,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500012432",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Whistler%20Selbstportr%C3%A4t.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q203643",
-        "activity_uri": "https://data.getty.edu/provenance/a5b1f8d5-b426-37ea-a21c-580e0b807107"
+        "activity_uri": "https://data.getty.edu/provenance/a5b1f8d5-b426-37ea-a21c-580e0b807107",
+        "museum_title": "Arrangement in Brown and Black: Portrait of Miss Rosa Corder",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/18905/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/282/"
     },
     {
         "name": "J.M.N. Whistler",
@@ -75840,7 +76041,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500012432",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Whistler%20Selbstportr%C3%A4t.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q203643",
-        "activity_uri": "https://data.getty.edu/provenance/ef366af3-8c6a-317e-aa87-2cb6c86e3181"
+        "activity_uri": "https://data.getty.edu/provenance/ef366af3-8c6a-317e-aa87-2cb6c86e3181",
+        "museum_title": "Arrangement in Black and Gold: Comte Robert de Montesquiou-Fezensac",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/18897/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/285/"
     },
     {
         "name": "J.M.N. Whistler",
@@ -75954,7 +76158,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500012432",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Whistler%20Selbstportr%C3%A4t.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q203643",
-        "activity_uri": "https://data.getty.edu/provenance/ae67fc2c-4a8b-3b71-bb34-12f22e9d8ff4"
+        "activity_uri": "https://data.getty.edu/provenance/ae67fc2c-4a8b-3b71-bb34-12f22e9d8ff4",
+        "museum_title": "Symphony in Grey and Green: The Ocean",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/18910/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/287/"
     },
     {
         "name": "J.M.N. Whistler",
@@ -76182,7 +76389,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500032143",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Boucher%20par%20Gustav%20Lundberg%201741.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q180932",
-        "activity_uri": "https://data.getty.edu/provenance/9222dd83-17fa-39c0-8e47-6883c9006c12"
+        "activity_uri": "https://data.getty.edu/provenance/9222dd83-17fa-39c0-8e47-6883c9006c12",
+        "museum_title": "Poetry",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/8764/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/363/"
     },
     {
         "name": "F. Boucher",
@@ -76296,7 +76506,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500032143",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Boucher%20par%20Gustav%20Lundberg%201741.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q180932",
-        "activity_uri": "https://data.getty.edu/provenance/fb478fd0-4fe1-3601-963d-6e7c35ad1643"
+        "activity_uri": "https://data.getty.edu/provenance/fb478fd0-4fe1-3601-963d-6e7c35ad1643",
+        "museum_title": "Girl with Roses",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4578/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/45/"
     },
     {
         "name": "F. Boucher",
@@ -76524,7 +76737,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115400",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A4%D1%80%D1%8D%D0%BD%D1%81%D0%B8%D1%81%20%D0%9A%D0%BE%D1%82%D1%81.%20%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q632772",
-        "activity_uri": "https://data.getty.edu/provenance/e23d043e-62ac-32e0-8800-d0c53d93101d"
+        "activity_uri": "https://data.getty.edu/provenance/e23d043e-62ac-32e0-8800-d0c53d93101d",
+        "museum_title": "Francis Vernon",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/1285/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/346/"
     },
     {
         "name": "Bronzino",
@@ -76638,7 +76854,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500004362",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alessandro%20Allori%2C%20santissima%20trinit%C3%A0%2C%201567-1571%20circa%2C%20ritratto%20dei%20maestri%2C%20bronzino%20%28cropped%29.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q7803",
-        "activity_uri": "https://data.getty.edu/provenance/a247f51d-8c6d-3bd0-94d4-68f188ebd381"
+        "activity_uri": "https://data.getty.edu/provenance/a247f51d-8c6d-3bd0-94d4-68f188ebd381",
+        "museum_title": "Lodovico Capponi",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/18851/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/141/"
     },
     {
         "name": "J. Maris",
@@ -76866,7 +77085,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500010363",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/%C3%89douard%20Manet%2C%20en%20buste%2C%20de%20face%20-%20Nadar.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q40599",
-        "activity_uri": "https://data.getty.edu/provenance/1500059c-0420-3ed4-97e0-f2f9068c846d"
+        "activity_uri": "https://data.getty.edu/provenance/1500059c-0420-3ed4-97e0-f2f9068c846d",
+        "museum_title": "The Bullfight",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/3004/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/115/"
     },
     {
         "name": "Goya",
@@ -86658,10 +86880,7 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500026846",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Mallord%20William%20Turner%20auto-retrato.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q159758",
-        "activity_uri": "https://data.getty.edu/provenance/96c4fed8-535e-33e8-a1d1-161a868ae28b",
-        "museum_title": "Port Ruysdael [1827, Royal Academy of Arts, London, exhibition catalogue]",
-        "object_image_url": "https://images.collections.yale.edu/iiif/2/ycba:557767e9-ef04-40db-b325-81d664a075d5/full/,1024/0/default.jpg",
-        "object_page_url": "https://collections.britishart.yale.edu/catalog/tms:422"
+        "activity_uri": "https://data.getty.edu/provenance/96c4fed8-535e-33e8-a1d1-161a868ae28b"
     },
     {
         "name": "Turner Joseph Mallord William",
@@ -86775,10 +86994,7 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500026846",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Mallord%20William%20Turner%20auto-retrato.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q159758",
-        "activity_uri": "https://data.getty.edu/provenance/96c4fed8-535e-33e8-a1d1-161a868ae28b",
-        "museum_title": "Port Ruysdael [1827, Royal Academy of Arts, London, exhibition catalogue]",
-        "object_image_url": "https://images.collections.yale.edu/iiif/2/ycba:557767e9-ef04-40db-b325-81d664a075d5/full/,1024/0/default.jpg",
-        "object_page_url": "https://collections.britishart.yale.edu/catalog/tms:422"
+        "activity_uri": "https://data.getty.edu/provenance/96c4fed8-535e-33e8-a1d1-161a868ae28b"
     },
     {
         "name": "Thos. Malton",
@@ -87243,10 +87459,7 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500026846",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Mallord%20William%20Turner%20auto-retrato.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q159758",
-        "activity_uri": "https://data.getty.edu/provenance/96c4fed8-535e-33e8-a1d1-161a868ae28b",
-        "museum_title": "Port Ruysdael [1827, Royal Academy of Arts, London, exhibition catalogue]",
-        "object_image_url": "https://images.collections.yale.edu/iiif/2/ycba:557767e9-ef04-40db-b325-81d664a075d5/full/,1024/0/default.jpg",
-        "object_page_url": "https://collections.britishart.yale.edu/catalog/tms:422"
+        "activity_uri": "https://data.getty.edu/provenance/96c4fed8-535e-33e8-a1d1-161a868ae28b"
     },
     {
         "name": "G. Seurat",

@@ -73,6 +73,7 @@ export default {
   mounted() {},
   methods: {
     handleSearchUpdate(e) {
+      this.presentLocationData = {};
       this.activityURI = e.activity_uri;
       this.objectURI = e.object_uri;
       this.personURI = e.buyer_uri;

@@ -33,23 +33,34 @@
       <p class="cost">{{ cost }}</p>
       <p class="current_cost">{{ currentPrice }} in 2024</p>
 
+      <template v-if="presentLocationData.present_location">
+        <hr />
+        <dl class="p-receipt__present-location">
+          <dt>Present Location</dt>
+          <dd>{{ presentLocationData.present_location }}</dd>
+
+          <dt>Present Title</dt>
+          <dd>{{ presentLocationData.museum_title }}</dd>
+        </dl>
+      </template>
+
       <hr />
       <dl class="lod_data">
         <dt>Activity URI</dt>
         <dd class="uri_display">
           <a :href="activityURI" target="_blank">{{
-            activityURI.split("/").at(-1)
+            activityURI?.split("/").at(-1)
           }}</a>
         </dd>
         <dt>Object URI</dt>
         <dd class="uri_display">
           <a :href="objectURI" target="_blank">{{
-            objectURI.split("/").at(-1)
+            objectURI?.split("/").at(-1)
           }}</a>
         </dd>
         <dt>Buyer ULAN</dt>
         <dd class="uri_display">
-          <a :href="ulan" target="_blank">{{ ulan.split("/").at(-1) }}</a>
+          <a :href="ulan" target="_blank">{{ ulan?.split("/").at(-1) }}</a>
         </dd>
       </dl>
     </div>
@@ -139,13 +150,12 @@ export default {
       return getPrimaryName(this.personLOD);
     },
     title: function () {
-      let _title = getPrimaryName(this.objectLOD, {
+      return getPrimaryName(this.objectLOD, {
         requestedClassifications: "http://vocab.getty.edu/aat/300417193",
       });
-      if (this.presentLocationData && this.presentLocationData?.museum_title) {
-        _title = this.presentLocationData?.museum_title;
-      }
-      return _title;
+    },
+    saleTitle: function () {
+      return this?.presentLocationData?.museum_title ?? undefined;
     },
     ulan: function () {
       return this.personLOD["skos:exactMatch"]?.id;

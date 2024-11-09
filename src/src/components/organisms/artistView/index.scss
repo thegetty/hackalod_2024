@@ -1,6 +1,5 @@
 @use "@thegetty/getty-ui/src/styles/base" as *;
 
-.p-object {
-  padding-top: $spacing-06;
-  backgrond-color: #333;
+.p-object__artist-name {
+  text-transform: capitalize;
 }
