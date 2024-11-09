@@ -13,7 +13,18 @@
   }
 }
 
-hr {
+figure img {
+  margin-left: 3px !important;
+  rotate: 3deg;
+}
+.paperclip {
+  position: absolute;
+  border: 0px transparent none !important;
+  width: 100px;
+  left: 61px;
+  z-index: 1;
+}
+.p-receipt hr {
   border-style: dashed;
   border-color: #444;
 }

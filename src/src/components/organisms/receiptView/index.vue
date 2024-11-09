@@ -5,19 +5,21 @@
     <h3 class="p-receipt__transaction-header">{{ title }}</h3>
     <hr />
 
-    <figure
-      class="p-receipt__object-image"
+    <img
       v-if="presentLocationData?.object_image_url"
+      class="paperclip"
+      src="@/assets/paperclip.webp"
+    />
+
+    <figure
+      v-if="presentLocationData?.object_image_url"
+      class="p-receipt__object-image"
     >
       <img :src="presentLocationData?.object_image_url" />
-      <figcaption>
-        <a
-          v-if="presentLocationData.object_page_url"
-          :href="presentLocationData.object_page_url"
-          >Visit this object at {{ presentLocationData.present_location }}</a
-        >
+      <!--       <figcaption>
+       
         <span v-else>{{ presentLocationData.present_location }}</span>
-      </figcaption>
+      </figcaption> -->
     </figure>
 
     <div class="p-receipt__metadata">
@@ -41,6 +43,14 @@
 
           <dt>Present Title</dt>
           <dd>{{ presentLocationData.museum_title }}</dd>
+          <dt v-if="presentLocationData.object_page_url">Present Website</dt>
+          <dd v-if="presentLocationData.object_page_url">
+            <a
+              v-if="presentLocationData.object_page_url"
+              :href="presentLocationData.object_page_url"
+              >Visit Artwork
+            </a>
+          </dd>
         </dl>
       </template>
 
@@ -64,6 +74,11 @@
         </dd>
       </dl>
     </div>
+    <hr />
+    <!--     <p class="discount">
+      All data from this page comes from a collection of linked open data sets.
+      Some data comes from wikidata, the Getty Vocabularies
+    </p> -->
   </div>
 </template>
 
@@ -101,6 +116,7 @@ export default {
         let day = date_parts.shift() || 1;
         console.log(date_parts, year, month, day);
         let statURL = `https://www.statbureau.org/calculate-inflation-price-json?country=united-states&start=${year}%2F${month}%2F${day}&end=2024%2F11%2F09&amount=${newAmount}&format=false`;
+        console.log("stat", statURL);
         const response = await fetch(statURL);
         const rawPrice = await response.json();
 
