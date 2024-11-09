@@ -10,7 +10,7 @@
 }
 
 .p-hammer {
-  width: 30%;
+  width: 25%;
   align-self: center;
 }
 .p-home__header {
@@ -45,6 +45,10 @@
   width: 1024px;
   margin-left: auto;
   margin-right: auto;
+
+  @include breakpoint("large-") {
+    width: 100%;
+  }
 }
 .categories {
   display: flex;
