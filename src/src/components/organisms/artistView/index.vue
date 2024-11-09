@@ -1,18 +1,19 @@
 <template>
   <div class="p-object databox">
     <div class="databox_header">Artist</div>
-
+    <h3>{{ artistName }}</h3>
     <img :src="artistImage" />
-    <!-- <dd>
-      <dl>
-        <dt>Accession Number</dt>
-        <dd>{{ accessionNumber }}</dd>
-        <dt>Stock Number</dt>
-        <dd>{{ stockNumber }}</dd>
-        <dt>LOD</dt>
-        <dd><a :href="lodURL" target="_blank">LOD Data</a></dd>
-      </dl>
-    </dd> -->
+    <p class="short_bio">{{ ulanBio }}</p>
+    <div v-if="ulanNote">
+      <hr />
+      <p class="subhead">Ulan Notes</p>
+      <p class="longtext">{{ ulanNote }}</p>
+    </div>
+    <div v-if="bio">
+      <hr />
+      <p class="subhead">Provenance Notes</p>
+      <p class="longtext">{{ bio }}</p>
+    </div>
   </div>
 </template>
 
@@ -34,24 +35,56 @@ export default {
       immediate: true,
       handler: async function (newURL) {
         if (!newURL) return;
-        const response = await fetch(newURL);
-        this.lod = await response.json();
+        let response = await fetch(newURL);
+        this.objectLOD = await response.json();
+        let artistURL =
+          this.objectLOD?.produced_by?.part?.carried_out_by?.at(0)?.id;
+        console.log("artistURL", artistURL);
+        if (artistURL) {
+          let response = await fetch(artistURL);
+          this.artistLOD = await response.json();
+        }
+      },
+    },
+    ulan: {
+      immediate: true,
+      handler: async function (newUlan) {
+        if (!newUlan) return;
+        const bioQuery = `http://vocab.getty.edu/sparql.json?query=select%20%3Fbio%20%7Bulan%3A${newUlan}%20foaf%3Afocus%2Fgvp%3AbiographyPreferred%2Fschema%3Adescription%20%3Fbio%20.%7D`;
+        let response = await fetch(bioQuery);
+        let data = await response.json();
+        this.ulanBio = data?.results?.bindings?.at(0)?.bio?.value;
+
+        const noteQuery = `http://vocab.getty.edu/sparql.json?query=select%20%3Fnote%20%7Bulan%3A${newUlan}%20skos%3AscopeNote%2Frdf%3Avalue%20%3Fnote%20.%7D`;
+        response = await fetch(noteQuery);
+        data = await response.json();
+        this.ulanNote = data?.results?.bindings?.at(0)?.note?.value;
       },
     },
   },
 
   data() {
-    return { lod: {} };
+    return {
+      objectLOD: {},
+      artistLOD: {},
+      ulanBio: undefined,
+      ulanNote: undefined,
+    };
   },
   computed: {
-    accessionNumber: function () {
-      return getAccessionNumbers(this.lod).join(", ");
+    artistName: function () {
+      return getPrimaryName(this.artistLOD);
     },
-    stockNumber: function () {
+    ulan: function () {
+      return this.artistLOD["skos:exactMatch"]?.id.split("/").at(-1);
+    },
+    bio: function () {
       return getClassifiedAs(
-        this.lod.identified_by,
-        "http://vocab.getty.edu/aat/300412177"
-      )?.at(0)?.content;
+        this.artistLOD?.referred_to_by,
+        "http://vocab.getty.edu/aat/300435422"
+      )
+        ?.map((x) => x.content)
+        .join("; ");
     },
   },
 };

@@ -3,13 +3,17 @@
     <div class="databox_header">Buyer</div>
     <h3>{{ buyerName }}</h3>
     <img v-if="buyerImage" :src="buyerImage" />
-    <p>{{ ulanBio }}</p>
-    <hr />
-    <p class="subhead">Ulan Notes</p>
-    <p class="longtext">{{ ulanNote }}</p>
-    <hr />
-    <p class="subhead">Provenance Notes</p>
-    <p class="longtext">{{ bio }}</p>
+    <p class="short_bio">{{ ulanBio }}</p>
+    <div v-if="ulanNote">
+      <hr />
+      <p class="subhead">Ulan Notes</p>
+      <p class="longtext">{{ ulanNote }}</p>
+    </div>
+    <div v-if="bio">
+      <hr />
+      <p class="subhead">Provenance Notes</p>
+      <p class="longtext">{{ bio }}</p>
+    </div>
   </div>
 </template>
 
@@ -70,6 +74,15 @@ export default {
         ?.map((x) => x.content)
         .join("; ");
     },
+    // accessionNumber: function () {
+    //   return getAccessionNumbers(this.objectLOD).join(", ");
+    // },
+    // stockNumber: function () {
+    //   return getClassifiedAs(
+    //     this.objectLOD.identified_by,
+    //     "http://vocab.getty.edu/aat/300412177"
+    //   )?.at(0)?.content;
+    // },
   },
 };
 </script>

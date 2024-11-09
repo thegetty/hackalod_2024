@@ -15,8 +15,8 @@
         :objectURI="objectURI"
         :personURI="personURI"
       />
-      <ArtistView :lodURL="objectURI" :artistImage="artistImage" />
       <PersonView :personURI="personURI" :buyerImage="buyerImage" />
+      <ArtistView :lodURL="objectURI" :artistImage="artistImage" />
     </div>
   </div>
 </template>
