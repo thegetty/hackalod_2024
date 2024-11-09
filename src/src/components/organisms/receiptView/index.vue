@@ -105,7 +105,7 @@ export default {
     },
     cost: function () {
       const paymentLOD = this.lod?.part
-        .filter((n) => n?.type == "Payment")
+        ?.filter((n) => n?.type == "Payment")
         ?.at(0)?.paid_amount;
       //return paymentLOD;
       return this.formattedCurrency(

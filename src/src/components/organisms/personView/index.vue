@@ -5,6 +5,9 @@
     <img v-if="buyerImage" :src="buyerImage" />
     <p>{{ ulanBio }}</p>
     <hr />
+    <p class="subhead">Ulan Notes</p>
+    <p class="longtext">{{ ulanNote }}</p>
+    <hr />
     <p class="subhead">Provenance Notes</p>
     <p class="longtext">{{ bio }}</p>
   </div>
@@ -36,18 +39,21 @@ export default {
       immediate: true,
       handler: async function (newUlan) {
         if (!newUlan) return;
-        const uri = `http://vocab.getty.edu/sparql.json?query=select%20%3Fbio%20%7Bulan%3A${newUlan}%20foaf%3Afocus%2Fgvp%3AbiographyPreferred%2Fschema%3Adescription%20%3Fbio%20.%7D`;
-        console.log("ru", uri);
-        const response = await fetch(uri);
+        const bioQuery = `http://vocab.getty.edu/sparql.json?query=select%20%3Fbio%20%7Bulan%3A${newUlan}%20foaf%3Afocus%2Fgvp%3AbiographyPreferred%2Fschema%3Adescription%20%3Fbio%20.%7D`;
+        let response = await fetch(bioQuery);
         let data = await response.json();
         this.ulanBio = data?.results?.bindings?.at(0)?.bio?.value;
+
+        const noteQuery = `http://vocab.getty.edu/sparql.json?query=select%20%3Fnote%20%7Bulan%3A${newUlan}%20skos%3AscopeNote%2Frdf%3Avalue%20%3Fnote%20.%7D`;
+        response = await fetch(noteQuery);
+        data = await response.json();
+        this.ulanNote = data?.results?.bindings?.at(0)?.note?.value;
       },
     },
-    //
   },
 
   data() {
-    return { lod: {}, ulanBio: undefined };
+    return { lod: {}, ulanBio: undefined, ulanNote: undefined };
   },
   computed: {
     buyerName: function () {
