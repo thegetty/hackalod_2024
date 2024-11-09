@@ -4,6 +4,21 @@
     <h3>{{ transactionName }}</h3>
     <hr />
 
+    <figure
+      class="p-receipt__object-image"
+      v-if="presentLocationData?.object_image_url"
+    >
+      <img :src="presentLocationData?.object_image_url" />
+      <figurecaption>
+        <a
+          v-if="presentLocationData.object_page_url"
+          :href="presentLocationData.object_page_url"
+          >Visit this object at {{ presentLocationData.present_location }}</a
+        >
+        <span v-else>{{ presentLocationData.present_location }}</span>
+      </figurecaption>
+    </figure>
+
     <dl>
       <dt>Date</dt>
       <dd>{{ transactionDate }}</dd>
@@ -55,6 +70,9 @@ export default {
     personURI: {
       type: String,
     },
+    presentLocationData: {
+      type: Object,
+    },
   },
   watch: {
     activityURI: {
@@ -97,9 +115,13 @@ export default {
       return getPrimaryName(this.personLOD);
     },
     title: function () {
-      return getPrimaryName(this.objectLOD, {
+      let _title = getPrimaryName(this.objectLOD, {
         requestedClassifications: "http://vocab.getty.edu/aat/300417193",
       });
+      if (this.presentLocationData && this.presentLocationData?.museum_title) {
+        _title = this.presentLocationData?.museum_title;
+      }
+      return _title;
     },
     ulan: function () {
       return this.personLOD["skos:exactMatch"]?.id;
