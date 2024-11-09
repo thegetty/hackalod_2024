@@ -32,7 +32,7 @@
     <hr />
 
     <p class="cost">{{ cost }}</p>
-
+    <p class="current_cost">{{ currentPrice }} in 2024</p>
     <hr />
     <dl class="lod_data">
       <dt>Activity URI</dt>
@@ -75,6 +75,25 @@ export default {
     },
   },
   watch: {
+    amount: {
+      handler: async function (newAmount) {
+        if (!newAmount) return;
+        if (!this.transactionDate) return;
+        let date_parts = this.transactionDate.split("-");
+        let year = date_parts.shift();
+        let month = date_parts.shift() || 1;
+        let day = date_parts.shift() || 1;
+        console.log(date_parts, year, month, day);
+        let statURL = `https://www.statbureau.org/calculate-inflation-price-json?country=united-states&start=${year}%2F${month}%2F${day}&end=2024%2F11%2F09&amount=${newAmount}&format=false`;
+        const response = await fetch(statURL);
+        const rawPrice = await response.json();
+
+        this.currentPrice = this.formattedCurrency(
+          Math.floor(rawPrice),
+          this.currency
+        );
+      },
+    },
     activityURI: {
       immediate: true,
       handler: async function (newURL) {
@@ -102,7 +121,7 @@ export default {
   },
 
   data() {
-    return { lod: {}, objectLOD: {}, personLOD: {} };
+    return { lod: {}, objectLOD: {}, personLOD: {}, currentPrice: undefined };
   },
   computed: {
     transactionName: function () {
@@ -130,6 +149,14 @@ export default {
       return (
         this.lod?.timespan?.identified_by?.at(0)?.content || "Unknown Date"
       );
+    },
+    amount: function () {
+      return this.lod?.part?.filter((n) => n?.type == "Payment")?.at(0)
+        ?.paid_amount?.value;
+    },
+    currency: function () {
+      return this.lod?.part?.filter((n) => n?.type == "Payment")?.at(0)
+        ?.paid_amount?.currency?.id;
     },
     cost: function () {
       const paymentLOD = this.lod?.part
