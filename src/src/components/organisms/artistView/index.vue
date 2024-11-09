@@ -1,8 +1,9 @@
 <template>
   <div class="p-object databox">
-    <h3>Object</h3>
+    <div class="databox_header">Artist</div>
+
     <img :src="artistImage" />
-    <dd>
+    <!-- <dd>
       <dl>
         <dt>Accession Number</dt>
         <dd>{{ accessionNumber }}</dd>
@@ -11,7 +12,7 @@
         <dt>LOD</dt>
         <dd><a :href="lodURL" target="_blank">LOD Data</a></dd>
       </dl>
-    </dd>
+    </dd> -->
   </div>
 </template>
 
@@ -22,7 +23,7 @@ import {
   getPrimaryName,
 } from "@thegetty/linkedart.js";
 export default {
-  name: "ObjectView",
+  name: "ArtistView",
   components: {},
   props: {
     lodURL: { type: String },

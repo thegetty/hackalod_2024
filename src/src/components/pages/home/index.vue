@@ -15,7 +15,7 @@
         :objectURI="objectURI"
         :personURI="personURI"
       />
-      <ObjectView :lodURL="objectURI" :artistImage="artistImage" />
+      <ArtistView :lodURL="objectURI" :artistImage="artistImage" />
       <PersonView :personURI="personURI" :buyerImage="buyerImage" />
     </div>
   </div>
@@ -26,12 +26,12 @@ import { RichText } from "@thegetty/getty-ui";
 import SearchBox from "@/components/molecules/searchBox/index.vue";
 import PersonView from "@/components/organisms/personView/index.vue";
 import ReceiptView from "@/components/organisms/receiptView/index.vue";
-import ObjectView from "@/components/organisms/objectView/index.vue";
+import ArtistView from "@/components/organisms/artistView/index.vue";
 import markdownContent from "@/data/welcome.md";
 
 export default {
   name: "HomePage",
-  components: { RichText, ReceiptView, ObjectView, PersonView, SearchBox },
+  components: { RichText, ReceiptView, ArtistView, PersonView, SearchBox },
   props: {
     /**
      * The path the app runs at

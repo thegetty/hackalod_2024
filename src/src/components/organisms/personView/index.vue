@@ -1,20 +1,12 @@
 <template>
   <div class="p-person databox">
-    <h3>Buyer</h3>
-    <img :src="buyerImage" />
-    <dl>
-      <dt>name</dt>
-      <dd>{{ buyerName }}</dd>
-
-      <dt>Star Bio</dt>
-      <dd>{{ bio }}</dd>
-      <dt>URI</dt>
-      <dd><a :href="personURI" target="_blank">LOD Data</a></dd>
-      <dt>ULAN URI</dt>
-      <dd>
-        <a :href="ulan" target="_blank">ULAN Record</a>
-      </dd>
-    </dl>
+    <div class="databox_header">Buyer</div>
+    <h3>{{ buyerName }}</h3>
+    <img v-if="buyerImage" :src="buyerImage" />
+    <p>{{ ulanBio }}</p>
+    <hr />
+    <p class="subhead">Provenance Notes</p>
+    <p class="longtext">{{ bio }}</p>
   </div>
 </template>
 
@@ -40,17 +32,29 @@ export default {
         this.lod = await response.json();
       },
     },
+    ulan: {
+      immediate: true,
+      handler: async function (newUlan) {
+        if (!newUlan) return;
+        const uri = `http://vocab.getty.edu/sparql.json?query=select%20%3Fbio%20%7Bulan%3A${newUlan}%20foaf%3Afocus%2Fgvp%3AbiographyPreferred%2Fschema%3Adescription%20%3Fbio%20.%7D`;
+        console.log("ru", uri);
+        const response = await fetch(uri);
+        let data = await response.json();
+        this.ulanBio = data?.results?.bindings?.at(0)?.bio?.value;
+      },
+    },
+    //
   },
 
   data() {
-    return { lod: {} };
+    return { lod: {}, ulanBio: undefined };
   },
   computed: {
-    ulan: function () {
-      return this.lod["skos:exactMatch"]?.id;
-    },
     buyerName: function () {
       return getPrimaryName(this.lod);
+    },
+    ulan: function () {
+      return this.lod["skos:exactMatch"]?.id.split("/").at(-1);
     },
     bio: function () {
       return getClassifiedAs(

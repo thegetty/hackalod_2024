@@ -1,6 +1,6 @@
 <template>
   <div class="p-receipt databox">
-    <h3>Receipt</h3>
+    <div class="databox_header">Receipt</div>
 
     <dl>
       <dt>Document</dt>
