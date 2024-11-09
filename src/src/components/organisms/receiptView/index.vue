@@ -33,6 +33,17 @@
       <p class="cost">{{ cost }}</p>
       <p class="current_cost">{{ currentPrice }} in 2024</p>
 
+      <template v-if="presentLocationData.present_location">
+        <hr />
+        <dl class="p-receipt__present-location">
+          <dt>Present Location</dt>
+          <dd>{{ presentLocationData.present_location }}</dd>
+
+          <dt>Present Title</dt>
+          <dd>{{ presentLocationData.museum_title }}</dd>
+        </dl>
+      </template>
+
       <hr />
       <dl class="lod_data">
         <dt>Activity URI</dt>
@@ -139,13 +150,12 @@ export default {
       return getPrimaryName(this.personLOD);
     },
     title: function () {
-      let _title = getPrimaryName(this.objectLOD, {
+      return getPrimaryName(this.objectLOD, {
         requestedClassifications: "http://vocab.getty.edu/aat/300417193",
       });
-      if (this.presentLocationData && this.presentLocationData?.museum_title) {
-        _title = this.presentLocationData?.museum_title;
-      }
-      return _title;
+    },
+    saleTitle: function () {
+      return this?.presentLocationData?.museum_title ?? undefined;
     },
     ulan: function () {
       return this.personLOD["skos:exactMatch"]?.id;
