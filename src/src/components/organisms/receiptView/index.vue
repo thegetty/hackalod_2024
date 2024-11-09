@@ -1,7 +1,8 @@
 <template>
   <div class="p-receipt databox">
-    <div class="databox_header">Receipt</div>
+    <!-- <div class="databox_header">Receipt</div> -->
     <h3 class="p-receipt__transaction-header">{{ transactionName }}</h3>
+    <h3 class="p-receipt__transaction-header">{{ title }}</h3>
     <hr />
 
     <figure
@@ -21,11 +22,8 @@
 
     <div class="p-receipt__metadata">
       <dl>
-        <dt>Date</dt>
+        <dt>Purchase Date</dt>
         <dd>{{ transactionDate }}</dd>
-
-        <dt>Artwork Title</dt>
-        <dd>{{ title }}</dd>
 
         <dt>Buyer</dt>
         <dd>{{ buyerName }}</dd>
@@ -38,16 +36,20 @@
       <hr />
       <dl class="lod_data">
         <dt>Activity URI</dt>
-        <dd><a :href="activityURI" target="_blank">LOD Data</a></dd>
+        <dd class="uri_display">
+          <a :href="activityURI" target="_blank">{{
+            activityURI.split("/").at(-1)
+          }}</a>
+        </dd>
         <dt>Object URI</dt>
-        <dd>
+        <dd class="uri_display">
           <a :href="objectURI" target="_blank">{{
             objectURI.split("/").at(-1)
           }}</a>
         </dd>
         <dt>Buyer ULAN</dt>
-        <dd>
-          <a :href="ulan" target="_blank">ULAN Record</a>
+        <dd class="uri_display">
+          <a :href="ulan" target="_blank">{{ ulan.split("/").at(-1) }}</a>
         </dd>
       </dl>
     </div>

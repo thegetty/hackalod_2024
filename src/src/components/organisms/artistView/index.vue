@@ -1,6 +1,6 @@
 <template>
   <div class="p-object databox">
-    <div class="databox_header">Artist</div>
+    <div class="databox_header">Artist Information</div>
     <h3>{{ artistName }}</h3>
     <img :src="artistImage" />
     <p class="short_bio">{{ ulanBio }}</p>

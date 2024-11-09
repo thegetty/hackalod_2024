@@ -1,6 +1,6 @@
 <template>
   <div class="p-person databox">
-    <div class="databox_header">Buyer</div>
+    <div class="databox_header">Buyer Information</div>
     <h3>{{ buyerName }}</h3>
     <img v-if="buyerImage" :src="buyerImage" />
     <p class="short_bio">{{ ulanBio }}</p>
