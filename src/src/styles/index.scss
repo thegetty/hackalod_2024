@@ -3,3 +3,8 @@ $FONTS-PROJECT-ID: 1;
 $GETTY_STATIC_HOST: "https://static.getty.edu";
 
 @use "@thegetty/getty-ui/src/styles/base" as *;
+
+@font-face {
+  font-family: "Merchant";
+  src: url("../assets/merchant-copy.ttf") format("truetype");
+}

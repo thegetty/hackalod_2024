@@ -1,5 +1,29 @@
 @use "@thegetty/getty-ui/src/styles/base" as *;
 
+.p-receipt__object-image {
+  padding-bottom: $spacing-06;
+  figcaption {
+    @include f-caption-1;
+    text-align: center;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+
+.p-receipt__metadata,
+.p-receipt__transaction-header {
+  font-family: Merchant;
+}
+
+.databox h3.p-receipt__transaction-header {
+  font-size: 1.5rem;
+}
+
+.p-receipt__metadata {
+  font-size: 1.5rem;
+}
+
 .cost {
   font-size: 150%;
   margin-bottom: 8px;

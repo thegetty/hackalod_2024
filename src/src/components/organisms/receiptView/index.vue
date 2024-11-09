@@ -1,7 +1,7 @@
 <template>
   <div class="p-receipt databox">
     <div class="databox_header">Receipt</div>
-    <h3>{{ transactionName }}</h3>
+    <h3 class="p-receipt__transaction-header">{{ transactionName }}</h3>
     <hr />
 
     <figure
@@ -9,45 +9,47 @@
       v-if="presentLocationData?.object_image_url"
     >
       <img :src="presentLocationData?.object_image_url" />
-      <figurecaption>
+      <figcaption>
         <a
           v-if="presentLocationData.object_page_url"
           :href="presentLocationData.object_page_url"
           >Visit this object at {{ presentLocationData.present_location }}</a
         >
         <span v-else>{{ presentLocationData.present_location }}</span>
-      </figurecaption>
+      </figcaption>
     </figure>
 
-    <dl>
-      <dt>Date</dt>
-      <dd>{{ transactionDate }}</dd>
+    <div class="p-receipt__metadata">
+      <dl>
+        <dt>Date</dt>
+        <dd>{{ transactionDate }}</dd>
 
-      <dt>Artwork Title</dt>
-      <dd>{{ title }}</dd>
+        <dt>Artwork Title</dt>
+        <dd>{{ title }}</dd>
 
-      <dt>Buyer</dt>
-      <dd>{{ buyerName }}</dd>
-    </dl>
-    <hr />
+        <dt>Buyer</dt>
+        <dd>{{ buyerName }}</dd>
+      </dl>
+      <hr />
 
-    <p class="cost">{{ cost }}</p>
+      <p class="cost">{{ cost }}</p>
 
-    <hr />
-    <dl class="lod_data">
-      <dt>Activity URI</dt>
-      <dd><a :href="activityURI" target="_blank">LOD Data</a></dd>
-      <dt>Object URI</dt>
-      <dd>
-        <a :href="objectURI" target="_blank">{{
-          objectURI.split("/").at(-1)
-        }}</a>
-      </dd>
-      <dt>Buyer ULAN</dt>
-      <dd>
-        <a :href="ulan" target="_blank">ULAN Record</a>
-      </dd>
-    </dl>
+      <hr />
+      <dl class="lod_data">
+        <dt>Activity URI</dt>
+        <dd><a :href="activityURI" target="_blank">LOD Data</a></dd>
+        <dt>Object URI</dt>
+        <dd>
+          <a :href="objectURI" target="_blank">{{
+            objectURI.split("/").at(-1)
+          }}</a>
+        </dd>
+        <dt>Buyer ULAN</dt>
+        <dd>
+          <a :href="ulan" target="_blank">ULAN Record</a>
+        </dd>
+      </dl>
+    </div>
   </div>
 </template>
 
