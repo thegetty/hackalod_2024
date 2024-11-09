@@ -3,7 +3,76 @@
 .p-home {
   padding-top: $spacing-06;
 }
+
 .p-home__body-content {
   margin-top: $spacing-06;
   margin-bottom: $spacing-06;
+}
+
+.p-hammer {
+  width: 30%;
+  align-self: center;
+}
+.p-home__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: $spacing-06;
+  padding-bottom: $spacing-06;
+
+  p {
+    align-self: center;
+    font-size: 400%;
+    font-weight: 900;
+    padding-top: $spacing-06;
+  }
+}
+
+.p-home__description {
+  @include f-subhead-3;
+  display: flex;
+  justify-content: center;
+  padding-bottom: $spacing-06;
+
+  .a-rich-text: {
+    width: 60%;
+  }
+}
+
+.p-home__header,
+.p-home__description,
+.m-searchbox {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.databox {
+  flex: 1 0 auto;
+  flex-direction: row;
+  padding: 8px;
+
+  text-align: left;
+  max-width: 30%;
+  h3 {
+    font-size: 150%;
+    text-align: center;
+    padding-bottom: 0.5em;
+  }
+  dl {
+    display: grid;
+    grid-gap: 4px 16px;
+    grid-template-columns: max-content;
+  }
+  dt {
+    font-weight: bold;
+  }
+  dd {
+    margin: 0;
+    grid-column-start: 2;
+  }
 }
