@@ -1,4 +1,4 @@
-The art market is big business with wins and losses——some may even call buying and selling artworks a sport.
+The art market is big business with wins and losses—some may even call buying and selling artworks a sport.
 
 M. Knoedler & Co., an art dealership in New York City founded in 1848, led the pack in this sport, selling many of the artworks we see in today’s museum galleries.
 
