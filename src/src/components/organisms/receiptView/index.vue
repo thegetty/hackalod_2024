@@ -49,18 +49,18 @@
         <dt>Activity URI</dt>
         <dd class="uri_display">
           <a :href="activityURI" target="_blank">{{
-            activityURI.split("/").at(-1)
+            activityURI?.split("/").at(-1)
           }}</a>
         </dd>
         <dt>Object URI</dt>
         <dd class="uri_display">
           <a :href="objectURI" target="_blank">{{
-            objectURI.split("/").at(-1)
+            objectURI?.split("/").at(-1)
           }}</a>
         </dd>
         <dt>Buyer ULAN</dt>
         <dd class="uri_display">
-          <a :href="ulan" target="_blank">{{ ulan.split("/").at(-1) }}</a>
+          <a :href="ulan" target="_blank">{{ ulan?.split("/").at(-1) }}</a>
         </dd>
       </dl>
     </div>
