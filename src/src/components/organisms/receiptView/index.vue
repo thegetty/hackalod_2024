@@ -110,7 +110,7 @@ export default {
       handler: async function (newAmount) {
         if (!newAmount) return;
         if (!this.transactionDate) return;
-        let date_parts = this.transactionDate.split("-");
+        let date_parts = this.transactionDate?.split("-");
         let year = date_parts.shift();
         let month = date_parts.shift() || 1;
         let day = date_parts.shift() || 1;
