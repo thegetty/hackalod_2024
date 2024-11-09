@@ -1,7 +1,11 @@
 @use "@thegetty/getty-ui/src/styles/base" as *;
 
-.p-receipt {
-  padding-top: $spacing-06;
-  backgrond-color: #333;
-  border: 1px #000 solid;
+.cost {
+  font-size: 150%;
+  margin-bottom: 8px;
+  text-align: right;
+}
+
+.lod_data {
+  margin-top: 40px;
 }

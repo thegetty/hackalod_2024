@@ -1,22 +1,25 @@
 <template>
   <div class="p-receipt databox">
     <div class="databox_header">Receipt</div>
+    <h3>{{ transactionName }}</h3>
+    <hr />
 
     <dl>
-      <dt>Document</dt>
-      <dd>{{ transactionName }}</dd>
+      <dt>Date</dt>
+      <dd>{{ transactionDate }}</dd>
+
       <dt>Artwork Title</dt>
       <dd>{{ title }}</dd>
 
       <dt>Buyer</dt>
       <dd>{{ buyerName }}</dd>
-      <dt>Amount</dt>
-      <dd>{{ cost }}</dd>
-      <dt>Date</dt>
-      <dd>{{ transactionDate }}</dd>
     </dl>
     <hr />
-    <dl>
+
+    <p class="cost">{{ cost }}</p>
+
+    <hr />
+    <dl class="lod_data">
       <dt>Activity URI</dt>
       <dd><a :href="activityURI" target="_blank">LOD Data</a></dd>
       <dt>Object URI</dt>
@@ -85,7 +88,10 @@ export default {
   },
   computed: {
     transactionName: function () {
-      return this.lod?.identified_by?.at(0)?.content || "no transaction name";
+      return (
+        this.lod?.identified_by?.at(0)?.content?.replace("Knoedler ", "") ||
+        "no transaction name"
+      );
     },
     buyerName: function () {
       return getPrimaryName(this.personLOD);

@@ -1,10 +1,5 @@
 @use "@thegetty/getty-ui/src/styles/base" as *;
 
-.p-person {
-  padding-top: $spacing-06;
-  backgrond-color: #333;
-  border: 1px #000 solid;
-}
 .short_bio {
   font-style: italic;
   font-size: 90%;

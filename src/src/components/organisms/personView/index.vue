@@ -6,7 +6,7 @@
     <p class="short_bio">{{ ulanBio }}</p>
     <div v-if="ulanNote">
       <hr />
-      <p class="subhead">Ulan Notes</p>
+      <p class="subhead">ULAN Notes</p>
       <p class="longtext">{{ ulanNote }}</p>
     </div>
     <div v-if="bio">
