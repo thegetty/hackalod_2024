@@ -1,14 +1,18 @@
 @use "@thegetty/getty-ui/src/styles/base" as *;
 
 .m-searchbox {
-  display: flex;
   width: 100%;
   padding-bottom: $spacing-06;
 }
 
+.m-searchbox__inner {
+  display: flex;
+  width: 100%;
+}
+
 .m-searchbox__input {
-  @include f-subhead-3;
   flex-grow: 1 0;
+  @include f-subhead-3;
   border: 1px solid $color__text;
   border-radius: unset;
   padding-top: 4px;
@@ -37,12 +41,16 @@
   position: absolute;
   z-index: 99;
   background-color: $color__white;
+  border: 1px solid $color__text;
+  border-top: unset;
+  max-height: calc(32 * #{$spacing-03} + 1em);
+  overflow: scroll;
 }
 
 .m-searchbox__suggestion {
   cursor: pointer;
-  padding-top: $spacing-01;
-  padding-bottom: $spacing-01;
+  width: calc(1024px - 2px);
+  padding: $spacing-02 $spacing-03;
   @include keyline("bottom");
   &:hover {
     background: $color__grey--20;

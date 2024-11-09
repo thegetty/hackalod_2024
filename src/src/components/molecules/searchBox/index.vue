@@ -1,15 +1,17 @@
 <template>
   <div class="m-searchbox">
-    <input class="m-searchbox__input" type="search" @input="handleSearch" />
-    <GuiButton
-      :aria-label="$t('aria-search-button-label')"
-      ref="searchButton"
-      name="searchButton"
-      class="m-searchbox__button"
-      @click="closeSuggestions"
-    >
-      <Icon :name="'search'" />
-    </GuiButton>
+    <div class="m-searchbox__inner">
+      <input class="m-searchbox__input" type="search" @input="handleSearch" />
+      <GuiButton
+        :aria-label="$t('aria-search-button-label')"
+        ref="searchButton"
+        name="searchButton"
+        class="m-searchbox__button"
+        @click="closeSuggestions"
+      >
+        <Icon :name="'search'" />
+      </GuiButton>
+    </div>
     <ul v-if="suggestions" class="m-searchbox__suggestions">
       <li
         v-for="suggestion of suggestions"
