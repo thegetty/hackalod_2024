@@ -10,9 +10,13 @@
     </div>
     <hr />
     <div class="categories" v-if="activityURI">
-      <ReceiptView :activityURI="activityURI" />
-      <ObjectView :lodURL="objectURI" />
-      <PersonView :personURI="personURI" />
+      <ReceiptView
+        :activityURI="activityURI"
+        :objectURI="objectURI"
+        :personURI="personURI"
+      />
+      <ObjectView :lodURL="objectURI" :artistImage="artistImage" />
+      <PersonView :personURI="personURI" :buyerImage="buyerImage" />
     </div>
   </div>
 </template>
@@ -59,16 +63,20 @@ export default {
       objectURI: undefined,
       activityURI: undefined,
       personURI: undefined,
+      buyerImage: undefined,
+      artistImage: undefined,
     };
   },
   computed: {},
   mounted() {},
   methods: {
     handleSearchUpdate(e) {
-      console.log("e", e.buyer_uri);
+      console.log("e.artist_wiki_image_url;", e.artist_wiki_image_url);
       this.activityURI = e.activity_uri;
       this.objectURI = e.object_uri;
       this.personURI = e.buyer_uri;
+      this.buyerImage = e.buyer_wiki_image_url;
+      this.artistImage = e.artist_wiki_image_url;
     },
   },
 };

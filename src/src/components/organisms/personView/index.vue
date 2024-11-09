@@ -1,6 +1,7 @@
 <template>
   <div class="p-person databox">
     <h3>Buyer</h3>
+    <img :src="buyerImage" />
     <dl>
       <dt>name</dt>
       <dd>{{ buyerName }}</dd>
@@ -27,9 +28,8 @@ export default {
   name: "PersonView",
   components: {},
   props: {
-    personURI: {
-      type: String,
-    },
+    personURI: { type: String },
+    buyerImage: { type: String },
   },
   watch: {
     personURI: {
@@ -38,7 +38,6 @@ export default {
         if (!newURL) return;
         const response = await fetch(newURL);
         this.lod = await response.json();
-        console.log("person", JSON.stringify(this.lod));
       },
     },
   },

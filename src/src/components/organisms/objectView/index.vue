@@ -1,15 +1,15 @@
 <template>
   <div class="p-object databox">
     <h3>Object</h3>
-
+    <img :src="artistImage" />
     <dd>
       <dl>
-        <dt>title</dt>
-        <dd>{{ title }}</dd>
         <dt>Accession Number</dt>
         <dd>{{ accessionNumber }}</dd>
         <dt>Stock Number</dt>
         <dd>{{ stockNumber }}</dd>
+        <dt>LOD</dt>
+        <dd><a :href="lodURL" target="_blank">LOD Data</a></dd>
       </dl>
     </dd>
   </div>
@@ -25,9 +25,8 @@ export default {
   name: "ObjectView",
   components: {},
   props: {
-    lodURL: {
-      type: String,
-    },
+    lodURL: { type: String },
+    artistImage: { type: String },
   },
   watch: {
     lodURL: {
@@ -44,11 +43,6 @@ export default {
     return { lod: {} };
   },
   computed: {
-    title: function () {
-      return getPrimaryName(this.lod, {
-        requestedClassifications: "http://vocab.getty.edu/aat/300417193",
-      });
-    },
     accessionNumber: function () {
       return getAccessionNumbers(this.lod).join(", ");
     },
