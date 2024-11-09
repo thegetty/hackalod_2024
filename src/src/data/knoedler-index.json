@@ -20814,7 +20814,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500120754",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Louis%20Tocqu%C3%A9%2C%20Jean-Marc%20Nattier%20%281740s%29.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q277738",
-        "activity_uri": "https://data.getty.edu/provenance/33741516-a1a9-339c-94f0-60e13baa7fa8"
+        "activity_uri": "https://data.getty.edu/provenance/33741516-a1a9-339c-94f0-60e13baa7fa8",
+        "museum_title": "Portrait of Madame Bonnier de la Mosson as Diana (Constance-Gabrielle-Magdeleine du Monciel de Lauraille)",
+        "object_image_url": "https://media.getty.edu/iiif/image/f75bc16c-7235-4b3a-8435-5aa8b849b65d/full/760,/0/default.jpg",
+        "object_page_url": "https://www.getty.edu/art/collection/object/103RDB"
     },
     {
         "name": "P. de Hoogh",
@@ -20928,7 +20931,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500020229",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20a%2019-year-old%20man%2C%20possibly%20a%20self%20portrait%2C%20attributed%20to%20Pieter%20de%20Hooch.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q314889",
-        "activity_uri": "https://data.getty.edu/provenance/0fe4e92d-d274-3a11-99a8-95a534262dbb"
+        "activity_uri": "https://data.getty.edu/provenance/0fe4e92d-d274-3a11-99a8-95a534262dbb",
+        "museum_title": "A Woman Preparing Bread and Butter for a Boy",
+        "object_image_url": "https://media.getty.edu/iiif/image/fd2bd011-7ce6-4935-9e41-6cc8e4880ca5/full/800,/0/default.jpg",
+        "object_page_url": "https://www.getty.edu/art/collection/object/103RFZ"
     },
     {
         "name": "Elias Nicolaes",
@@ -21042,7 +21048,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500017284",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Nicolaes%20Eliasz.%20Pickenoy%20-%20Self-Portrait%20at%20the%20Age%20of%20Thirty-Six%20-%20WGA17440.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q632846",
-        "activity_uri": "https://data.getty.edu/provenance/6ca66776-d069-38b3-b6eb-df6b097af43c"
+        "activity_uri": "https://data.getty.edu/provenance/6ca66776-d069-38b3-b6eb-df6b097af43c",
+        "museum_title": "Portrait of a Man",
+        "object_image_url": "https://media.getty.edu/iiif/image/cfff5da4-9c71-466a-aae1-2b415fa4d9da/full/713,/0/default.jpg",
+        "object_page_url": "https://www.getty.edu/art/collection/object/103RK0"
     },
     {
         "name": "Gainsborough T.",
@@ -21156,7 +21165,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115200",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Gainsborough%20by%20Thomas%20Gainsborough.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q192720",
-        "activity_uri": "https://data.getty.edu/provenance/fbc91494-294c-30a6-b6dc-885f3ea074ed"
+        "activity_uri": "https://data.getty.edu/provenance/fbc91494-294c-30a6-b6dc-885f3ea074ed",
+        "museum_title": "Portrait of James Christie (1730 - 1803)",
+        "object_image_url": "https://media.getty.edu/iiif/image/94ecb201-b71d-4ae4-a48a-2717868cc54d/full/814,/0/default.jpg",
+        "object_page_url": "https://www.getty.edu/art/collection/object/103RAG"
     },
     {
         "name": "N.C. Pickenoy",
@@ -21270,7 +21282,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500017284",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Nicolaes%20Eliasz.%20Pickenoy%20-%20Self-Portrait%20at%20the%20Age%20of%20Thirty-Six%20-%20WGA17440.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q632846",
-        "activity_uri": "https://data.getty.edu/provenance/6ca66776-d069-38b3-b6eb-df6b097af43c"
+        "activity_uri": "https://data.getty.edu/provenance/6ca66776-d069-38b3-b6eb-df6b097af43c",
+        "museum_title": "Portrait of a Man",
+        "object_image_url": "https://media.getty.edu/iiif/image/cfff5da4-9c71-466a-aae1-2b415fa4d9da/full/713,/0/default.jpg",
+        "object_page_url": "https://www.getty.edu/art/collection/object/103RK0"
     },
     {
         "name": "T. Gainsborough",
@@ -21384,7 +21399,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115200",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Gainsborough%20by%20Thomas%20Gainsborough.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q192720",
-        "activity_uri": "https://data.getty.edu/provenance/fbc91494-294c-30a6-b6dc-885f3ea074ed"
+        "activity_uri": "https://data.getty.edu/provenance/fbc91494-294c-30a6-b6dc-885f3ea074ed",
+        "museum_title": "Portrait of James Christie (1730 - 1803)",
+        "object_image_url": "https://media.getty.edu/iiif/image/94ecb201-b71d-4ae4-a48a-2717868cc54d/full/814,/0/default.jpg",
+        "object_page_url": "https://www.getty.edu/art/collection/object/103RAG"
     },
     {
         "name": "N. Pickenoy",
@@ -21498,7 +21516,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500017284",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Nicolaes%20Eliasz.%20Pickenoy%20-%20Self-Portrait%20at%20the%20Age%20of%20Thirty-Six%20-%20WGA17440.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q632846",
-        "activity_uri": "https://data.getty.edu/provenance/6ca66776-d069-38b3-b6eb-df6b097af43c"
+        "activity_uri": "https://data.getty.edu/provenance/6ca66776-d069-38b3-b6eb-df6b097af43c",
+        "museum_title": "Portrait of a Man",
+        "object_image_url": "https://media.getty.edu/iiif/image/cfff5da4-9c71-466a-aae1-2b415fa4d9da/full/713,/0/default.jpg",
+        "object_page_url": "https://www.getty.edu/art/collection/object/103RK0"
     },
     {
         "name": "T. Gainsborough",
@@ -21612,7 +21633,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115200",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Gainsborough%20by%20Thomas%20Gainsborough.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q192720",
-        "activity_uri": "https://data.getty.edu/provenance/fbc91494-294c-30a6-b6dc-885f3ea074ed"
+        "activity_uri": "https://data.getty.edu/provenance/fbc91494-294c-30a6-b6dc-885f3ea074ed",
+        "museum_title": "Portrait of James Christie (1730 - 1803)",
+        "object_image_url": "https://media.getty.edu/iiif/image/94ecb201-b71d-4ae4-a48a-2717868cc54d/full/814,/0/default.jpg",
+        "object_page_url": "https://www.getty.edu/art/collection/object/103RAG"
     },
     {
         "name": "Pittoni",
@@ -21726,7 +21750,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500003150",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Giambattista%20Pittoni%2C%20portrait%20from%20Longhi%201762%2C%20cropped.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q982011",
-        "activity_uri": "https://data.getty.edu/provenance/08dcdd12-f240-3083-b5b9-fc07e48f27f1"
+        "activity_uri": "https://data.getty.edu/provenance/08dcdd12-f240-3083-b5b9-fc07e48f27f1",
+        "museum_title": "The Sacrifice of Polyxena",
+        "object_image_url": "https://media.getty.edu/iiif/image/277394fb-8099-4585-b344-2a637739601e/full/770,/0/default.jpg?download=277394fb-8099-4585-b344-2a637739601e_770.jpg&size=small",
+        "object_page_url": "https://www.getty.edu/art/collection/object/103RCM"
     },
     {
         "name": "Degas, Hilaire Germain Edgar",
@@ -21840,7 +21867,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115194",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Edgar%20Degas%20self%20portrait%201855FXD.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q46373",
-        "activity_uri": "https://data.getty.edu/provenance/506cd6f4-5ba7-3291-8370-46e07cc68650"
+        "activity_uri": "https://data.getty.edu/provenance/506cd6f4-5ba7-3291-8370-46e07cc68650",
+        "museum_title": "The Convalescent",
+        "object_image_url": "https://media.getty.edu/iiif/image/469e1c01-7db7-4b6e-9150-75195d6643f5/full/772,/0/default.jpg",
+        "object_page_url": "https://www.getty.edu/art/collection/object/108XV3"
     },
     {
         "name": "Canaletto, Antonio",
@@ -21954,7 +21984,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115269",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Giovanni%20Antonio%20Canal.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q182664",
-        "activity_uri": "https://data.getty.edu/provenance/1282185d-b920-3557-9295-7f0d479ed3f3"
+        "activity_uri": "https://data.getty.edu/provenance/1282185d-b920-3557-9295-7f0d479ed3f3",
+        "museum_title": "The Grand Canal in Venice from Palazzo Flangini to Campo San Marcuola",
+        "object_image_url": "https://media.getty.edu/iiif/image/0bfd8fdf-457f-43c8-9253-a2346d37d26a/full/1024,/0/default.jpg",
+        "object_page_url": "https://www.getty.edu/art/collection/object/103QTD"
     },
     {
         "name": "Tiepolo, Giovanni Battista",
@@ -69186,7 +69219,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500115779",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/George%20Romney%20-%20Portrait%20de%20l%27artiste.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q371280",
-        "activity_uri": "https://data.getty.edu/provenance/e2567f57-b7fb-37bd-95d0-f1e3b2c21641"
+        "activity_uri": "https://data.getty.edu/provenance/e2567f57-b7fb-37bd-95d0-f1e3b2c21641",
+        "museum_title": "Miss Mary Finch-Hatton",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/4622/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/1703/"
     },
     {
         "name": "J. Dupré",
@@ -69300,7 +69336,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500029859",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jules%20Dupr%C3%A9%20autoportrait.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q959212",
-        "activity_uri": "https://data.getty.edu/provenance/aba83bca-a2c8-3aa0-afb9-a34449ba56b3"
+        "activity_uri": "https://data.getty.edu/provenance/aba83bca-a2c8-3aa0-afb9-a34449ba56b3",
+        "museum_title": "The River",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/8757/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/153/"
     },
     {
         "name": "Mauve",
@@ -69642,7 +69681,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500029859",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jules%20Dupr%C3%A9%20autoportrait.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q959212",
-        "activity_uri": "https://data.getty.edu/provenance/aba83bca-a2c8-3aa0-afb9-a34449ba56b3"
+        "activity_uri": "https://data.getty.edu/provenance/aba83bca-a2c8-3aa0-afb9-a34449ba56b3",
+        "museum_title": "The River",
+        "object_image_url": "https://collections.frick.org/internal/media/dispatcher/8757/thumbnail",
+        "object_page_url": "https://collections.frick.org/objects/153/"
     },
     {
         "name": "Troyon",
@@ -86382,7 +86424,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500026846",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Mallord%20William%20Turner%20auto-retrato.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q159758",
-        "activity_uri": "https://data.getty.edu/provenance/96c4fed8-535e-33e8-a1d1-161a868ae28b"
+        "activity_uri": "https://data.getty.edu/provenance/96c4fed8-535e-33e8-a1d1-161a868ae28b",
+        "museum_title": "Port Ruysdael [1827, Royal Academy of Arts, London, exhibition catalogue]",
+        "object_image_url": "https://images.collections.yale.edu/iiif/2/ycba:557767e9-ef04-40db-b325-81d664a075d5/full/,1024/0/default.jpg",
+        "object_page_url": "https://collections.britishart.yale.edu/catalog/tms:422"
     },
     {
         "name": "R. Wilson",
@@ -86496,7 +86541,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500022703",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mengs%20-%20Richard%20Wilson.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q471387",
-        "activity_uri": "https://data.getty.edu/provenance/c8554548-263a-3818-884b-b54e1e208df4"
+        "activity_uri": "https://data.getty.edu/provenance/c8554548-263a-3818-884b-b54e1e208df4",
+        "museum_title": "Italian Landscape (Morning)",
+        "object_image_url": "https://images.collections.yale.edu/iiif/2/ycba:7706a112-2709-4898-bd29-15d09563aaf7/full/,1024/0/default.jpg",
+        "object_page_url": "https://collections.britishart.yale.edu/catalog/tms:71"
     },
     {
         "name": "Turner J.M.W.",
@@ -86610,7 +86658,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500026846",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Mallord%20William%20Turner%20auto-retrato.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q159758",
-        "activity_uri": "https://data.getty.edu/provenance/96c4fed8-535e-33e8-a1d1-161a868ae28b"
+        "activity_uri": "https://data.getty.edu/provenance/96c4fed8-535e-33e8-a1d1-161a868ae28b",
+        "museum_title": "Port Ruysdael [1827, Royal Academy of Arts, London, exhibition catalogue]",
+        "object_image_url": "https://images.collections.yale.edu/iiif/2/ycba:557767e9-ef04-40db-b325-81d664a075d5/full/,1024/0/default.jpg",
+        "object_page_url": "https://collections.britishart.yale.edu/catalog/tms:422"
     },
     {
         "name": "Turner Joseph Mallord William",
@@ -86724,7 +86775,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500026846",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Mallord%20William%20Turner%20auto-retrato.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q159758",
-        "activity_uri": "https://data.getty.edu/provenance/96c4fed8-535e-33e8-a1d1-161a868ae28b"
+        "activity_uri": "https://data.getty.edu/provenance/96c4fed8-535e-33e8-a1d1-161a868ae28b",
+        "museum_title": "Port Ruysdael [1827, Royal Academy of Arts, London, exhibition catalogue]",
+        "object_image_url": "https://images.collections.yale.edu/iiif/2/ycba:557767e9-ef04-40db-b325-81d664a075d5/full/,1024/0/default.jpg",
+        "object_page_url": "https://collections.britishart.yale.edu/catalog/tms:422"
     },
     {
         "name": "Thos. Malton",
@@ -86838,7 +86892,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500010484",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Malton%20the%20younger%20by%20William%20Whiston%20Barney%2C%20after%20Gilbert%20Stuart.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q4301086",
-        "activity_uri": "https://data.getty.edu/provenance/e63f2f6f-3e43-3ea8-bc5a-7623dfaad9f5"
+        "activity_uri": "https://data.getty.edu/provenance/e63f2f6f-3e43-3ea8-bc5a-7623dfaad9f5",
+        "museum_title": "High Street, Oxford [1799, Royal Academy of Arts, London, exhibition catalogue]",
+        "object_image_url": "https://images.collections.yale.edu/iiif/2/ycba:bf905c09-bee0-45c5-924a-6c37f351dd91/full/,1024/0/default.jpg",
+        "object_page_url": "https://collections.britishart.yale.edu/catalog/tms:1535"
     },
     {
         "name": "Thos. Malton",
@@ -86952,7 +87009,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500010484",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Malton%20the%20younger%20by%20William%20Whiston%20Barney%2C%20after%20Gilbert%20Stuart.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q4301086",
-        "activity_uri": "https://data.getty.edu/provenance/d3e5beb0-a3ab-3513-9f85-28cc455ea557"
+        "activity_uri": "https://data.getty.edu/provenance/d3e5beb0-a3ab-3513-9f85-28cc455ea557",
+        "museum_title": "The East End of the Senate House, Public Library, King's Chapel, Cambridge [1799, Royal Academy of Arts, London, exhibition catalogue]",
+        "object_image_url": "https://images.collections.yale.edu/iiif/2/ycba:bd973506-4715-4483-9b65-82031425f727/full/,1024/0/default.jpg",
+        "object_page_url": "https://collections.britishart.yale.edu/catalog/tms:1534"
     },
     {
         "name": "Geo Stubbs",
@@ -87066,7 +87126,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500032263",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/George%20Stubbs%20-%20self%20portrait.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q381728",
-        "activity_uri": "https://data.getty.edu/provenance/8abdfe83-9faf-34f1-b10b-cebd3752d2d5"
+        "activity_uri": "https://data.getty.edu/provenance/8abdfe83-9faf-34f1-b10b-cebd3752d2d5",
+        "museum_title": "Pumpkin with a Stable-lad",
+        "object_image_url": "https://images.collections.yale.edu/iiif/2/ycba:a14fdabd-546f-4a57-805a-fdad3a0877be/full/,1024/0/default.jpg",
+        "object_page_url": "https://collections.britishart.yale.edu/catalog/tms:21169"
     },
     {
         "name": "Turner, Joseph Mallord William",
@@ -87180,7 +87243,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500026846",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Mallord%20William%20Turner%20auto-retrato.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q159758",
-        "activity_uri": "https://data.getty.edu/provenance/96c4fed8-535e-33e8-a1d1-161a868ae28b"
+        "activity_uri": "https://data.getty.edu/provenance/96c4fed8-535e-33e8-a1d1-161a868ae28b",
+        "museum_title": "Port Ruysdael [1827, Royal Academy of Arts, London, exhibition catalogue]",
+        "object_image_url": "https://images.collections.yale.edu/iiif/2/ycba:557767e9-ef04-40db-b325-81d664a075d5/full/,1024/0/default.jpg",
+        "object_page_url": "https://collections.britishart.yale.edu/catalog/tms:422"
     },
     {
         "name": "G. Seurat",
@@ -87294,7 +87360,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500008873",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Georges%20Seurat%201888%20%28cropped%29.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q34013",
-        "activity_uri": "https://data.getty.edu/provenance/59e67596-970d-32bc-a7b2-a71becf488e5"
+        "activity_uri": "https://data.getty.edu/provenance/59e67596-970d-32bc-a7b2-a71becf488e5",
+        "museum_title": "A Fisherman",
+        "object_image_url": "https://images.collections.yale.edu/iiif/2/yuag:5dac646b-2a20-4ccf-9a28-75561506e831/full/!1920,1920/0/default.jpg",
+        "object_page_url": "https://artgallery.yale.edu/collections/objects/8898"
     },
     {
         "name": "Odilon Redon",
@@ -87408,7 +87477,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500007292",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Odilon%20Redon%20vers%201880.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q154349",
-        "activity_uri": "https://data.getty.edu/provenance/c28df7be-78ea-334d-a555-690b6c3c72c8"
+        "activity_uri": "https://data.getty.edu/provenance/c28df7be-78ea-334d-a555-690b6c3c72c8",
+        "museum_title": "Nasturtiums",
+        "object_image_url": "https://images.collections.yale.edu/iiif/2/yuag:8fa3aa6a-eb6d-45cb-96f8-b8df5be8f276/full/!1920,1920/0/default.jpg",
+        "object_page_url": "https://artgallery.yale.edu/collections/objects/8862"
     },
     {
         "name": "Winterhalter",
@@ -87522,7 +87594,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500007953",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/F.%20X.%20Winterhalter%20portrait%20%E2%80%93%20BNF%20Gallica%20portrait%20crop.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q168659",
-        "activity_uri": "https://data.getty.edu/provenance/cb464b64-6ecf-31fa-a2a0-30f17d705c50"
+        "activity_uri": "https://data.getty.edu/provenance/cb464b64-6ecf-31fa-a2a0-30f17d705c50",
+        "museum_title": "Portrait of the Young Queen Victoria",
+        "object_image_url": "https://images.collections.yale.edu/iiif/2/yuag:ff20fae1-d739-4f5d-a5be-f8f865cae941/full/!1920,1920/0/default.jpg",
+        "object_page_url": "https://artgallery.yale.edu/collections/objects/8920"
     },
     {
         "name": "J.S. Sargent",
@@ -87636,7 +87711,10 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500023972",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Singer%20Sargent%201903.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q155626",
-        "activity_uri": "https://data.getty.edu/provenance/2f703078-e5a1-32c1-a4ad-aed7594dee7f"
+        "activity_uri": "https://data.getty.edu/provenance/2f703078-e5a1-32c1-a4ad-aed7594dee7f",
+        "museum_title": "A Moroccan Street Scene",
+        "object_image_url": "https://images.collections.yale.edu/iiif/2/yuag:9c1a37b0-b4e6-4a9b-8017-9b2c1964026c/full/!1920,1920/0/default.jpg",
+        "object_page_url": "https://artgallery.yale.edu/collections/objects/8888"
     },
     {
         "name": "Cole, Thomas",
@@ -87864,6 +87942,9 @@
         "artist_ulan_id": "http://vocab.getty.edu/ulan/500001596",
         "artist_wiki_image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Maillol1925.jpg",
         "artist_wiki_entity_url": "http://www.wikidata.org/entity/Q153920",
-        "activity_uri": "https://data.getty.edu/provenance/21d59324-e0f2-3098-8c39-3f8baa9f7adc"
+        "activity_uri": "https://data.getty.edu/provenance/21d59324-e0f2-3098-8c39-3f8baa9f7adc",
+        "museum_title": "Bather Putting up Her Hair",
+        "object_image_url": "https://images.collections.yale.edu/iiif/2/yuag:13356bd5-11f6-433f-aafd-142d0c8cdd58/full/!1920,1920/0/default.jpg",
+        "object_page_url": "https://artgallery.yale.edu/collections/objects/14928"
     }
 ]
