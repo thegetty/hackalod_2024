@@ -27,33 +27,8 @@ export default {
   name: "PersonView",
   components: {},
   props: {
-    personURI: { type: String },
-    buyerImage: { type: String },
-  },
-  watch: {
-    personURI: {
-      immediate: true,
-      handler: async function (newURL) {
-        if (!newURL) return;
-        const response = await fetch(newURL);
-        this.lod = await response.json();
-      },
-    },
-    ulan: {
-      immediate: true,
-      handler: async function (newUlan) {
-        if (!newUlan) return;
-        const bioQuery = `https://vocab.getty.edu/sparql.json?query=select%20%3Fbio%20%7Bulan%3A${newUlan}%20foaf%3Afocus%2Fgvp%3AbiographyPreferred%2Fschema%3Adescription%20%3Fbio%20.%7D`;
-        let response = await fetch(bioQuery);
-        let data = await response.json();
-        this.ulanBio = data?.results?.bindings?.at(0)?.bio?.value;
-
-        const noteQuery = `https://vocab.getty.edu/sparql.json?query=select%20%3Fnote%20%7Bulan%3A${newUlan}%20skos%3AscopeNote%2Frdf%3Avalue%20%3Fnote%20.%7D`;
-        response = await fetch(noteQuery);
-        data = await response.json();
-        this.ulanNote = data?.results?.bindings?.at(0)?.note?.value;
-      },
-    },
+    personURI: { type: String, default: undefined },
+    buyerImage: { type: String, default: undefined },
   },
 
   data() {
@@ -83,6 +58,31 @@ export default {
     //     "http://vocab.getty.edu/aat/300412177"
     //   )?.at(0)?.content;
     // },
+  },
+  watch: {
+    personURI: {
+      immediate: true,
+      handler: async function (newURL) {
+        if (!newURL) return;
+        const response = await fetch(newURL);
+        this.lod = await response.json();
+      },
+    },
+    ulan: {
+      immediate: true,
+      handler: async function (newUlan) {
+        if (!newUlan) return;
+        const bioQuery = `https://vocab.getty.edu/sparql.json?query=select%20%3Fbio%20%7Bulan%3A${newUlan}%20foaf%3Afocus%2Fgvp%3AbiographyPreferred%2Fschema%3Adescription%20%3Fbio%20.%7D`;
+        let response = await fetch(bioQuery);
+        let data = await response.json();
+        this.ulanBio = data?.results?.bindings?.at(0)?.bio?.value;
+
+        const noteQuery = `https://vocab.getty.edu/sparql.json?query=select%20%3Fnote%20%7Bulan%3A${newUlan}%20skos%3AscopeNote%2Frdf%3Avalue%20%3Fnote%20.%7D`;
+        response = await fetch(noteQuery);
+        data = await response.json();
+        this.ulanNote = data?.results?.bindings?.at(0)?.note?.value;
+      },
+    },
   },
 };
 </script>

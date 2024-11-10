@@ -27,8 +27,33 @@ export default {
   name: "ArtistView",
   components: {},
   props: {
-    lodURL: { type: String },
-    artistImage: { type: String },
+    lodURL: { type: String, default: undefined },
+    artistImage: { type: String, default: undefined },
+  },
+
+  data() {
+    return {
+      objectLOD: {},
+      artistLOD: {},
+      ulanBio: undefined,
+      ulanNote: undefined,
+    };
+  },
+  computed: {
+    artistName: function () {
+      return getPrimaryName(this.artistLOD);
+    },
+    ulan: function () {
+      return this.artistLOD["skos:exactMatch"]?.id.split("/").at(-1);
+    },
+    bio: function () {
+      return getClassifiedAs(
+        this.artistLOD?.referred_to_by,
+        "http://vocab.getty.edu/aat/300435422"
+      )
+        ?.map((x) => x.content)
+        .join("; ");
+    },
   },
   watch: {
     lodURL: {
@@ -60,31 +85,6 @@ export default {
         data = await response.json();
         this.ulanNote = data?.results?.bindings?.at(0)?.note?.value;
       },
-    },
-  },
-
-  data() {
-    return {
-      objectLOD: {},
-      artistLOD: {},
-      ulanBio: undefined,
-      ulanNote: undefined,
-    };
-  },
-  computed: {
-    artistName: function () {
-      return getPrimaryName(this.artistLOD);
-    },
-    ulan: function () {
-      return this.artistLOD["skos:exactMatch"]?.id.split("/").at(-1);
-    },
-    bio: function () {
-      return getClassifiedAs(
-        this.artistLOD?.referred_to_by,
-        "http://vocab.getty.edu/aat/300435422"
-      )
-        ?.map((x) => x.content)
-        .join("; ");
     },
   },
 };

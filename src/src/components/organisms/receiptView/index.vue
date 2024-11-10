@@ -94,61 +94,19 @@ export default {
   props: {
     activityURI: {
       type: String,
+      default: undefined,
     },
     objectURI: {
       type: String,
+      default: undefined,
     },
     personURI: {
       type: String,
+      default: undefined,
     },
     presentLocationData: {
       type: Object,
-    },
-  },
-  watch: {
-    amount: {
-      handler: async function (newAmount) {
-        if (!newAmount) return;
-        if (!this.transactionDate) return;
-        let date_parts = this.transactionDate?.split("-");
-        let year = date_parts.shift();
-        let month = date_parts.shift() || 1;
-        let day = date_parts.shift() || 1;
-        console.log(date_parts, year, month, day);
-        let statURL = `https://www.statbureau.org/calculate-inflation-price-json?country=united-states&start=${year}%2F${month}%2F${day}&end=2024%2F11%2F09&amount=${newAmount}&format=false`;
-        console.log("stat", statURL);
-        const response = await fetch(statURL);
-        const rawPrice = await response.json();
-
-        this.currentPrice = this.formattedCurrency(
-          Math.floor(rawPrice),
-          this.currency
-        );
-      },
-    },
-    activityURI: {
-      immediate: true,
-      handler: async function (newURL) {
-        if (!newURL) return;
-        const response = await fetch(newURL);
-        this.lod = await response.json();
-      },
-    },
-    objectURI: {
-      immediate: true,
-      handler: async function (newURL) {
-        if (!newURL) return;
-        const response = await fetch(newURL);
-        this.objectLOD = await response.json();
-      },
-    },
-    personURI: {
-      immediate: true,
-      handler: async function (newURL) {
-        if (!newURL) return;
-        const response = await fetch(newURL);
-        this.personLOD = await response.json();
-      },
+      default: undefined,
     },
   },
 
@@ -198,6 +156,52 @@ export default {
         paymentLOD?.value,
         paymentLOD?.currency?.id
       );
+    },
+  },
+  watch: {
+    amount: {
+      handler: async function (newAmount) {
+        if (!newAmount) return;
+        if (!this.transactionDate) return;
+        let date_parts = this.transactionDate?.split("-");
+        let year = date_parts.shift();
+        let month = date_parts.shift() || 1;
+        let day = date_parts.shift() || 1;
+        console.log(date_parts, year, month, day);
+        let statURL = `https://www.statbureau.org/calculate-inflation-price-json?country=united-states&start=${year}%2F${month}%2F${day}&end=2024%2F11%2F09&amount=${newAmount}&format=false`;
+        console.log("stat", statURL);
+        const response = await fetch(statURL);
+        const rawPrice = await response.json();
+
+        this.currentPrice = this.formattedCurrency(
+          Math.floor(rawPrice),
+          this.currency
+        );
+      },
+    },
+    activityURI: {
+      immediate: true,
+      handler: async function (newURL) {
+        if (!newURL) return;
+        const response = await fetch(newURL);
+        this.lod = await response.json();
+      },
+    },
+    objectURI: {
+      immediate: true,
+      handler: async function (newURL) {
+        if (!newURL) return;
+        const response = await fetch(newURL);
+        this.objectLOD = await response.json();
+      },
+    },
+    personURI: {
+      immediate: true,
+      handler: async function (newURL) {
+        if (!newURL) return;
+        const response = await fetch(newURL);
+        this.personLOD = await response.json();
+      },
     },
   },
   methods: {
