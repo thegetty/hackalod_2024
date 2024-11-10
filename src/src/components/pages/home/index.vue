@@ -9,15 +9,15 @@
       <RichText :content="markdown" />
     </div>
     <hr />
-    <div class="categories" v-if="activityURI">
+    <div v-if="activityURI" class="categories">
       <ReceiptView
-        :activityURI="activityURI"
-        :objectURI="objectURI"
-        :personURI="personURI"
-        :presentLocationData="presentLocationData"
+        :activity-u-r-i="activityURI"
+        :object-u-r-i="objectURI"
+        :person-u-r-i="personURI"
+        :present-location-data="presentLocationData"
       />
-      <PersonView :personURI="personURI" :buyerImage="buyerImage" />
-      <ArtistView :lodURL="objectURI" :artistImage="artistImage" />
+      <PersonView :person-u-r-i="personURI" :buyer-image="buyerImage" />
+      <ArtistView :lod-u-r-l="objectURI" :artist-image="artistImage" />
     </div>
   </div>
 </template>
