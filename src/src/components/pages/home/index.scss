@@ -64,22 +64,30 @@
   flex-direction: row;
   padding: 8px;
   background-color: #eee;
-  // background-image: url("@/assets/paper.jpg");
   background-size: 50%;
-
   text-align: left;
   max-width: 30%;
+  position: relative;
 
   &:first-child {
     background-image: url("@/assets/crumpled.jpg");
   }
 
-  @include breakpoint("medium-") {
+  @include breakpoint("xsmall") {
+    max-width: unset;
+    width: 80%;
+    margin-bottom: $spacing-06;
+  }
+  @include breakpoint("small") {
+    max-width: unset;
+    width: 80%;
+    margin-bottom: $spacing-06;
+  }
+  @include breakpoint("medium") {
     max-width: unset;
     width: 50%;
     margin-bottom: $spacing-06;
   }
-
   .databox_header {
     background-color: rgba(0, 0, 0, 0.3);
     text-align: center;
