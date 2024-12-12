@@ -3,8 +3,8 @@
     <div class="m-searchbox__inner">
       <input class="m-searchbox__input" type="search" @input="handleSearch" />
       <GuiButton
-        :aria-label="$t('aria-search-button-label')"
         ref="searchButton"
+        :aria-label="$t('aria-search-button-label')"
         name="searchButton"
         class="m-searchbox__button"
         @click="closeSuggestions"

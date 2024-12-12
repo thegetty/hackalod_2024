@@ -8,3 +8,7 @@ $GETTY_STATIC_HOST: "https://static.getty.edu";
   font-family: "Merchant";
   src: url("../assets/merchant-copy.ttf") format("truetype");
 }
+
+.l-base__wrapper {
+  padding-bottom: $spacing-11;
+}

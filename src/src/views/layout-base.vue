@@ -1,5 +1,5 @@
 <template>
-  <GettyPage :application-base-url="path">
+  <div class="l-base__wrapper">
     <Hero name="Content" :data="heroData" />
     <section>
       <!-- note: container is a getty-ui class that adds the page gutter -->
@@ -7,7 +7,7 @@
         <router-view :path="path" />
       </div>
     </section>
-  </GettyPage>
+  </div>
 </template>
 
 <script>
@@ -15,7 +15,7 @@ import { GettyPage, Hero } from "@thegetty/getty-ui";
 import "@thegetty/getty-ui/dist/getty-ui.css";
 export default {
   name: "LayoutBase",
-  components: { GettyPage, Hero },
+  components: { Hero },
   props: {
     /** * The path the app runs at */ path: { type: String, default: "/" },
   },
