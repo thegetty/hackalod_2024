@@ -1,0 +1,3 @@
+In less than 24 hours, a Getty team created this experimental application at [HackaLOD 2024](https://nde.dev.so-plesk.nl/nieuws/hackalod-2024-een-nacht-vol-innovatie-met-erfgoeddata/#english), which was hosted at the Olympic Stadium in Amsterdam on November 8-9. Leveraging linked data from the Getty Provenance Index, ULAN, Wikipedia, and various museum sites, the application demonstrates the power of accessible and linked heritage data to tell stories.
+
+Please note: You may encounter bugs or broken links!

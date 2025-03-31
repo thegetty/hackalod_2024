@@ -12,3 +12,21 @@ $GETTY_STATIC_HOST: "https://static.getty.edu";
 .l-base__wrapper {
   padding-bottom: $spacing-11;
 }
+
+.l-base__intro {
+  @include background-fill;
+  @include f-ui-2;
+  color: $color__white;
+  background-color: $color__background--blue;
+  padding-bottom: $spacing-08;
+
+  @include breakpoint("large+") {
+    position: absolute;
+    top: $spacing-10;
+    right: 0;
+    max-width: 50%;
+    z-index: z("low");
+    padding: $spacing-08;
+    background-color: transparent;
+  }
+}
