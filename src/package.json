@@ -19,7 +19,7 @@
     "core-js": "^3.10.1",
     "fuse.js": "^7.0.0",
     "lodash.merge": "^4.6.2",
-    "vue": "^2.7.1",
+    "vue": "^3.0.0",
     "vue-i18n": "^8.24.3"
   },
   "devDependencies": {
