@@ -46,7 +46,7 @@
     "vite-plugin-handlebars": "^1.6.0",
     "vite-plugin-vue2": "^2.0.0",
     "vite-raw-plugin": "^1.0.1",
-    "vitest": "^0.32.0",
+    "vitest": "^3.2.6",
     "vue-router": "^3.5.1"
   },
   "browserslist": [
